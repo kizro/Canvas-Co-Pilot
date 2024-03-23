@@ -24,6 +24,7 @@ function toggleChat(minimize = false) {
             const chatWindow = document.getElementById('chat-window');
             if (chatWindow) {
                 chatWindow.innerHTML = chatHistoryContent; // Restore chat history
+                chatWindow.scrollTop = chatWindow.scrollHeight; // Scroll to latest message
             }
         }
     }
