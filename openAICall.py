@@ -4,7 +4,7 @@ from datetime import datetime
 from zoneinfo import ZoneInfo
 
 #OpenAI API Key
-client = OpenAI(api_key="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")
+client = OpenAI(api_key="insert key here")
 
 
 #Converts text file to string
