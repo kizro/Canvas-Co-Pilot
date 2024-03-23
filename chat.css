@@ -51,3 +51,47 @@
 .response-message {
     color: rgb(0, 25, 0);
 }
+
+#chat-container.minimized, #chat-toggle {
+    width: 50px; /* Circle diameter */
+    height: 50px; /* Circle diameter */
+    border-radius: 50%; /* Makes it a circle */
+    background-color: #4CAF50; /* Circle background color */
+    color: white; /* Text/icon color */
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    cursor: pointer;
+    z-index: 1001; /* Ensures it's above other content */
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    font-size: 30px; /* Adjust based on the icon size you prefer */
+    text-align: center;
+}
+
+
+/* Hides everything when minimzed */
+#chat-container.minimized #chat-window,
+#chat-container.minimized #user-input,
+#chat-container.minimized #send-btn,
+#chat-container.minimized #chat-header {
+    display: none;
+}
+
+.hidden {
+    display: none;
+}
+
+#chat-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* Add your styles for the header */
+}
+#close-btn {
+    cursor: pointer;
+    /* Style your close button */
+}
+
+
