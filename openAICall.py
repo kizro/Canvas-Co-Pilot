@@ -2,9 +2,10 @@ from openai import OpenAI
 import requests
 from datetime import datetime
 from zoneinfo import ZoneInfo
+import config
 
 #OpenAI API Key
-client = OpenAI(api_key="insert key here")
+client = OpenAI(api_key=config.API_KEY)
 
 
 #Converts text file to string
