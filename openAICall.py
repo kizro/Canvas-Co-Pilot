@@ -1,8 +1,10 @@
 from openai import OpenAI
 import requests
+from datetime import datetime
+from zoneinfo import ZoneInfo
 
 #OpenAI API Key
-client = OpenAI(api_key="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")
+client = OpenAI(api_key="insert key here")
 
 
 #Converts text file to string
@@ -14,12 +16,16 @@ def txtToString(file_name):
     return file_contents
 
 #Dictionary of types of prompt data
-prompt_dictionary = {"Assignments":txtToString("Assignments.txt")}
+prompt_dictionary = {"Assignments":txtToString("Assignments.txt"), "Announcements" : txtToString("Announcements.txt")}
 
-userPrompt = "Give me a list of my assignments for Intro to Entrepreneurship"
+userPrompt = '''Give me a list of my upcoming assignments for Data Structures and give me the most
+recent annoucement for intro phys 1 workshop.
+ '''
 
 systemContent1 = '''You are an educational assistant. Return the word Assignments if the user asks for
-information regarding their assignments.
+information regarding their assignments. Return the word Announcements if the user asks for information
+regarding their announcements. Return both words separated by a space if the user asks for both types of 
+information.
 '''
 
 chatResponse1 = client.chat.completions.create(
@@ -32,8 +38,18 @@ chatResponse1 = client.chat.completions.create(
 
 chatResponseFinal1 = chatResponse1.choices[0].message.content
 
+print(chatResponseFinal1)
+
+promptList = chatResponseFinal1.split()
+
 systemContent2 = '''You are an educational assistant. 
-Use the following data to answer user query: \n''' + prompt_dictionary[chatResponseFinal1] 
+    Use the following data to answer user query: \n'''
+
+for x in promptList:
+
+    systemContent2 = systemContent2 + prompt_dictionary[x] + "\n"
+
+systemContent2 = systemContent2 + "This is the current time:" + str(datetime.now(ZoneInfo("America/New_York")))
 
 chatResponse2 = client.chat.completions.create(
     model="gpt-3.5-turbo",

@@ -4,7 +4,7 @@ from datetime import datetime, timedelta
 
 
 def get_course_assignments(filtered_courses, canvas_url, headers):
-    with open('Course_Assignments.txt', 'w') as file:
+    with open('Assignments.txt', 'w') as file:
         for course in filtered_courses:
             course_id = course.get("id", "No ID")
             course_name = course.get("name", "No Name")
@@ -56,7 +56,7 @@ def get_course_assignments(filtered_courses, canvas_url, headers):
 
 
 def get_course_announcements(filtered_courses, canvas_url, headers):
-    with open('Course_Announcements.txt', 'w') as file:
+    with open('Announcements.txt', 'w') as file:
         for course in filtered_courses:
             course_id = course.get("id", "No ID")
             course_name = course.get("name", "No Name")
@@ -103,8 +103,8 @@ def get_course_announcements(filtered_courses, canvas_url, headers):
 
 def clear_files():
     filenames = [
-        'Course_Assignments.txt',
-        'Course_Announcements.txt',
+        'Assignments.txt',
+        'Announcements.txt',
     ]
     for filename in filenames:
         with open(filename, 'w') as file:

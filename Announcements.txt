@@ -1,0 +1,61 @@
+Course: 24Sp Data Structures and Algo 1 (ID: 95142)
+  - Announcement: TA Guest Lectures Wednesday and Friday! | Posted Date: 2024-03-20 | Posted Time: 00:40:38Z | Status: Read
+  - Announcement: Regrade Requests for Extra Credit Notes | Posted Date: 2024-03-19 | Posted Time: 03:02:00Z | Status: Unread
+  - Announcement: Changes for Part B Quizzes | Posted Date: 2024-03-18 | Posted Time: 17:12:53Z | Status: Unread
+  - Announcement: No Title | Posted Date: 2024-03-13 | Posted Time: 01:26:26Z | Status: Unread
+  - Announcement: Spring Break Office Hours Clarification | Posted Date: 2024-02-29 | Posted Time: 15:09:23Z | Status: Unread
+  - Announcement: Inheritance Extra Credit Lab | Posted Date: 2024-02-26 | Posted Time: 17:09:21Z | Status: Unread
+  - Announcement: Extra Credit Notes Clarification | Posted Date: 2024-02-21 | Posted Time: 02:42:34Z | Status: Unread
+  - Announcement: Prof. Morrison Office Hour Changes | Posted Date: 2024-02-20 | Posted Time: 17:22:16Z | Status: Unread
+  - Announcement: Quiz 1B grades released | Posted Date: 2024-02-14 | Posted Time: 16:45:02Z | Status: Read
+  - Announcement: Policies for Quiz 1B Today | Posted Date: 2024-02-12 | Posted Time: 15:05:31Z | Status: Unread
+  - Announcement: No Generative AI Tool Use for Quiz Part As | Posted Date: 2024-02-10 | Posted Time: 17:14:34Z | Status: Unread
+  - Announcement: 7 Feb - Morrison Office Hours online | Posted Date: 2024-02-07 | Posted Time: 16:13:16Z | Status: Unread
+  - Announcement: HW 2 | Posted Date: 2024-02-01 | Posted Time: 22:17:53Z | Status: Unread
+  - Announcement: Please Charge Laptops Before Labs! | Posted Date: 2024-01-29 | Posted Time: 22:09:57Z | Status: Unread
+  - Announcement: Note Taker needed | Posted Date: 2024-01-24 | Posted Time: 21:24:56Z | Status: Unread
+  - Announcement: Please download software BEFORE lab today | Posted Date: 2024-01-22 | Posted Time: 18:10:54Z | Status: Unread
+Course: 24Sp Engineering Foundations 2 (ID: 101792)
+  - Announcement: Midpoint meetings with Clients | Posted Date: 2024-03-18 | Posted Time: 17:29:12Z | Status: Unread
+  - Announcement: ATTN: CIPN teams meeting tonight (directions) | Posted Date: 2024-02-20 | Posted Time: 15:50:53Z | Status: Unread
+  - Announcement: OH cancelled today (Sorry for inconvenience) | Posted Date: 2024-02-16 | Posted Time: 15:36:36Z | Status: Unread
+  - Announcement: Client meeting schedule next week - ALL MEETINGS SCHEDULED | Posted Date: 2024-02-14 | Posted Time: 15:57:44Z | Status: Unread
+  - Announcement: Work for next week in ENGR 1020 | Posted Date: 2024-02-02 | Posted Time: 18:28:07Z | Status: Unread
+  - Announcement: Undergraduate Research Opportunity | Posted Date: 2024-01-26 | Posted Time: 16:24:43Z | Status: Unread
+  - Announcement: OH shifted today only | Posted Date: 2024-01-26 | Posted Time: 15:08:34Z | Status: Unread
+  - Announcement: Button Light Demo Hands on Time | Posted Date: 2024-01-22 | Posted Time: 22:38:15Z | Status: Unread
+  - Announcement: Welcome to Engineering Foundations 2! | Posted Date: No posting date | Posted Time: No posting time | Status: Unread
+Course: 24Sp Intro Physics 1 Workshop (ID: 89720)
+  - Announcement: PHYS Lab office hours this Sunday | Posted Date: 2024-03-10 | Posted Time: 14:54:59Z | Status: Unread
+  - Announcement: Office Hours Today 3-5 Physics 1! | Posted Date: 2024-03-10 | Posted Time: 14:11:16Z | Status: Unread
+  - Announcement: PHYS Lab evals reminder | Posted Date: 2024-03-01 | Posted Time: 23:52:43Z | Status: Unread
+  - Announcement: Moving Office Hours for this week | Posted Date: 2024-02-26 | Posted Time: 03:23:24Z | Status: Unread
+  - Announcement: PHYS Lab reminder for the week of Feb 26 | Posted Date: 2024-02-24 | Posted Time: 04:25:54Z | Status: Unread
+  - Announcement: TA Evaluations  | Posted Date: 2024-02-23 | Posted Time: 22:20:55Z | Status: Unread
+  - Announcement: No Title | Posted Date: 2024-02-23 | Posted Time: 18:32:56Z | Status: Unread
+  - Announcement: PHYS Lab Weekend Office Hours Change | Posted Date: 2024-02-16 | Posted Time: 21:06:35Z | Status: Unread
+  - Announcement: PHYS Lab preliminary ALEKS scores | Posted Date: 2024-01-27 | Posted Time: 21:46:14Z | Status: Read
+  - Announcement: PHYS Lab office hour announcement | Posted Date: 2024-01-27 | Posted Time: 00:29:41Z | Status: Read
+  - Announcement: PHYS Labs hints and reminders for the first week of labs | Posted Date: 2024-01-20 | Posted Time: 00:05:36Z | Status: Read
+  - Announcement: PHYS1429 Spring2024 Welcome message | Posted Date: 2024-01-11 | Posted Time: 18:26:29Z | Status: Read
+Course: 24Sp Intro to Entrepreneurship (ID: 95694)
+  - Announcement: ZOOOOOOOOM today | Posted Date: 2024-03-21 | Posted Time: 14:34:14Z | Status: Unread
+  - Announcement: MVP Proposal Assignment | Posted Date: 2024-03-17 | Posted Time: 18:59:43Z | Status: Unread
+  - Announcement: Zoomy Zoom Zoom TODAY | Posted Date: 2024-03-14 | Posted Time: 14:47:36Z | Status: Unread
+  - Announcement: On Zoom Tomorrow (2/27/24) | Posted Date: 2024-02-26 | Posted Time: 19:53:12Z | Status: Read
+  - Announcement: On Zoom Today (2/20/24) | Posted Date: 2024-02-20 | Posted Time: 16:29:36Z | Status: Read
+  - Announcement: On Zoom Today (2/13/24) | Posted Date: 2024-02-13 | Posted Time: 15:18:13Z | Status: Read
+  - Announcement: Figma Account Setup | Posted Date: 2024-02-09 | Posted Time: 21:47:49Z | Status: Unread
+  - Announcement: TA Introduction!  | Posted Date: 2024-02-07 | Posted Time: 10:03:24Z | Status: Unread
+  - Announcement: Extra Credit! | Posted Date: 2024-01-29 | Posted Time: 20:58:05Z | Status: Read
+  - Announcement: Discord | Posted Date: 2024-01-24 | Posted Time: 21:39:30Z | Status: Unread
+  - Announcement: Welcome | Posted Date: 2024-01-17 | Posted Time: 17:50:44Z | Status: Read
+Course: 24Sp Multivariable Calculus (ID: 93395)
+  - Announcement: Test 3 | Posted Date: 2024-03-17 | Posted Time: 20:45:54Z | Status: Unread
+  - Announcement: Test 2 | Posted Date: 2024-02-17 | Posted Time: 03:51:56Z | Status: Read
+  - Announcement: Test 1 | Posted Date: 2024-01-29 | Posted Time: 23:21:38Z | Status: Unread
+  - Announcement: Sec. 12.6 pre-class and CalcPlot3D activitiy | Posted Date: 2024-01-24 | Posted Time: 22:28:50Z | Status: Read
+Course: 24Sp PHYS1425-002 Intro Physics 1 for Engineers (ID: 89710)
+  - This course doesn't have any announcements yet.
+Course: SURE: How to Perform Research (ID: 92492)
+  - This course doesn't have any announcements yet.
