@@ -1,0 +1,49 @@
+Course: 24Sp Data Structures and Algo 1 (ID: 95142)
+  - Category: Syllabus | Grade: No grade
+  - Category: Programming HW | Grade: No grade
+  - Category: Labs | Grade: No grade
+  - Category: Quiz Part A | Grade: No grade
+  - Category: Quiz Part B | Grade: No grade
+  - Category: Extra Credit | Grade: No grade
+  - Category: ReTakes | Grade: No grade
+Course: 24Sp Engineering Foundations 2 (ID: 101792)
+  - Category: Assignments | Grade: No grade
+  - Category: Phase 0 | Grade: No grade
+  - Category: Phase 1 | Grade: No grade
+  - Category: Phase 2 | Grade: No grade
+  - Category: Phase 3 | Grade: No grade
+  - Category: Phase 4 | Grade: No grade
+  - Category: Career Assignments | Grade: No grade
+  - Category: Individual assignments - CAD, MATLAB, surveys, professionalism | Grade: No grade
+  - Category: Imported Assignments | Grade: No grade
+Course: 24Sp Intro Physics 1 Workshop (ID: 89720)
+  - Category: Assignments | Grade: No grade
+  - Category: Assignments | Grade: No grade
+Course: 24Sp Intro to Entrepreneurship (ID: 95694)
+  - Category: Assignments | Grade: No grade
+  - Category: Unsorted Assignments | Grade: No grade
+  - Category: Online Discussions | Grade: No grade
+  - Category: Reflection Videos | Grade: No grade
+  - Category: Reading | Grade: No grade
+  - Category: Viewing | Grade: No grade
+  - Category: Written / Whiteboard Canvas | Grade: No grade
+  - Category: Project | Grade: No grade
+  - Category: Non- Project Presentations | Grade: No grade
+  - Category: Tasks | Grade: No grade
+Course: 24Sp Multivariable Calculus (ID: 93395)
+  - Category: WebAssign Assignments | Grade: No grade
+Course: 24Sp PHYS1425-002 Intro Physics 1 for Engineers (ID: 89710)
+  - Category: MasteringPhysics Preparation | Grade: No grade
+  - Category: MasteringPhysics Homework | Grade: No grade
+  - Category: Reading Quizzes | Grade: No grade
+  - Category: ChapSums | Grade: No grade
+  - Category: Weekly Group Quizzes | Grade: No grade
+  - Category: Midterm Exams | Grade: No grade
+  - Category: Final Exam | Grade: No grade
+  - Category: Assignments (Unsorted) | Grade: No grade
+  - Category: Imported Assignments | Grade: No grade
+Course: SURE: How to Perform Research (ID: 92492)
+  - Category: Course Objective 1 (Must pass 4/5 of the following assignments) | Grade: No grade
+  - Category: Course Objective 2 | Grade: No grade
+  - Category: Course Objective 3 | Grade: No grade
+  - Category: Course Objective 4 | Grade: No grade
