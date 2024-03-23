@@ -1,4 +1,5 @@
 import requests
+import GetCourseDetail
 import config 
 
 # Your Canvas instance URL
@@ -38,22 +39,28 @@ else:
     print(f'Failed to retrieve courses. Status code: {response.status_code}')
 
 
-# Open a text file to write the course and assignment information
-with open('Course_Assignment.txt', 'w') as file:
-    for course in filtered_courses:
-        course_id = course.get("id", "No ID")
-        course_name = course.get("name", "No Name")
+# Get the user ID of the currently authenticated user
+user_response = requests.get(f'{canvas_url}/api/v1/users/self', headers=headers)
+if user_response.status_code == 200:
+    user_id = user_response.json().get('id')
+else:
+    print(f'Failed to retrieve user ID. Status code: {user_response.status_code}')
+    user_id = None
 
-        # Fetch assignments for the course
-        assignments_endpoint = f'/api/v1/courses/{course_id}/assignments'
-        assignments_url = f'{canvas_url}{assignments_endpoint}'
 
-        assignments_response = requests.get(assignments_url, headers=headers)
+# Get course id and name
+for course in filtered_courses:
+    course_id = course.get("id", "No ID")
+    course_name = course.get("name", "No Name")
 
-        if assignments_response.status_code == 200:
-            assignments = assignments_response.json()
-            file.write(f'Course: {course_name} (ID: {course_id})\n')
-            for assignment in assignments:
-                file.write(f"  - Assignment: {assignment['name']}, Due: {assignment.get('due_at', 'No due date')}\n")
-        else:
-            file.write(f'Failed to retrieve assignments for course {course_name}. Status code: {assignments_response.status_code}\n')
+
+
+# Clear all files before fetching new data
+GetCourseDetail.clear_files()
+
+# Fetch and write new data
+GetCourseDetail.get_course_assignments(filtered_courses, canvas_url, headers)
+GetCourseDetail.get_course_announcements(filtered_courses, canvas_url, headers)
+
+
+
