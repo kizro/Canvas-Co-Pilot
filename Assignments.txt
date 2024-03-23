@@ -1,0 +1,58 @@
+Course: 24Sp Data Structures and Algo 1 (ID: 95142)
+  - Assignment: Syllabus Quiz, Due: 2024-02-03T04:59:00Z
+  - Assignment: HW 1 - Basic Java, Due: 2024-02-01T04:59:00Z
+  - Assignment: HW2 - Calculator, Due: 2024-02-08T04:59:00Z
+  - Assignment: HW3 - Basketball, Due: 2024-02-15T04:59:00Z
+  - Assignment: HW4 - Blackjack, Due: 2024-02-22T04:59:00Z
+  - Assignment: HW5 - Vectors, Due: 2024-02-29T04:59:59Z
+  - Assignment: HW6 - LinkedList Queue, Due: 2024-03-14T03:59:00Z
+  - Assignment: HW7 - Big Oh, Due: 2024-03-21T03:59:59Z
+  - Assignment: HW8-Recursion, Due: 2024-03-28T03:59:59Z
+  - Assignment: Lab 01, Due: 2024-01-30T04:59:00Z
+Course: 24Sp Engineering Foundations 2 (ID: 101792)
+  - Assignment: Professional Email Assignment, Due: 2024-01-25T04:59:59Z
+  - Assignment: Arduino Assignment 1, Due: 2024-01-22T17:30:00Z
+  - Assignment: Arduino Assignment 2, Due: 2024-01-24T17:30:00Z
+  - Assignment: Phase 0 Project, Due: 2024-01-31T04:59:59Z
+  - Assignment: Rank Project Choices, Due: 2024-02-08T04:59:59Z
+  - Assignment: Client Questions, Due: 2024-02-24T04:59:59Z
+  - Assignment: Chapter 2 - Problem Definition and Background Draft, Due: 2024-03-02T04:59:59Z
+  - Assignment: Phase 1 engineering notebook check, Due: 2024-02-26T04:59:59Z
+  - Assignment: In Class Problem Definition Discussion, Due: 2024-02-27T04:59:59Z
+  - Assignment: Phase 2 - Bill of Materials, Due: 2024-03-28T21:00:00Z
+Course: 24Sp Intro Physics 1 Workshop (ID: 89720)
+  - Assignment: Final score, Due: 2023-12-13T01:21:00Z
+Course: 24Sp Intro to Entrepreneurship (ID: 95694)
+  - Assignment: Review Syllabus and General Materials, Due: 2024-01-19T04:59:59Z
+  - Assignment: Read "Debt Vs Equity: Whats the Difference?", Due: 2024-04-18T18:00:00Z
+  - Assignment: Read "The Market Curve", Due: 2024-04-16T18:00:00Z
+  - Assignment: Eric Kelley Guest Discussion, Due: 2024-02-15T19:00:00Z
+  - Assignment: "How Great Leaders Inspire Action" Online Discussion Thread, Due: 2024-02-14T04:59:59Z
+  - Assignment: Timm Chiusano Discussion Thread, Due: 2024-03-26T18:00:00Z
+  - Assignment: "Everything is a remix" Discussion, Due: 2024-02-08T19:00:00Z
+  - Assignment: "Before the Startup" Online Discussion Thread, Due: 2024-01-23T19:00:00Z
+  - Assignment: Kathryn Budig Guest Discussion, Due: 2024-03-20T03:59:59Z
+  - Assignment: Effectuation Theory Discussion Thread, Due: 2024-01-30T19:00:00Z
+Course: 24Sp Multivariable Calculus (ID: 93395)
+Course: 24Sp PHYS1425-002 Intro Physics 1 for Engineers (ID: 89710)
+  - Assignment: Introduction to MasteringPhysics, Due: 2024-01-18T03:00:00Z
+  - Assignment: Physics Primer, Due: 2024-01-20T03:00:00Z
+  - Assignment: Midterm-1, Due: None
+  - Assignment: HW02, Due: 2024-01-31T07:00:00Z
+  - Assignment: HW01, Due: 2024-01-24T07:00:00Z
+  - Assignment: HW02, Due: 2024-01-31T07:00:00Z
+  - Assignment: HW03, Due: 2024-02-07T07:00:00Z
+  - Assignment: HW04, Due: 2024-02-14T07:00:00Z
+  - Assignment: HW05, Due: 2024-02-26T07:00:00Z
+  - Assignment: HW06, Due: 2024-03-11T06:00:00Z
+Course: SURE: How to Perform Research (ID: 92492)
+  - Assignment: Getting to Know You (Mandatory), Due: 2024-01-23T17:00:00Z
+  - Assignment: Pre-Course Survey (Mandatory), Due: 2024-01-30T20:30:00Z
+  - Assignment: Journal 1 - Letter to Your Future Self , Due: 2024-01-31T04:59:59Z
+  - Assignment: Journal 2 - What's Important to You in a Lab, Due: 2024-02-06T17:00:00Z
+  - Assignment: Family Feud - In Class Activity, Due: None
+  - Assignment: Journal 3 - What makes you excited about science, Due: 2024-02-13T20:30:00Z
+  - Assignment: Interest Area Activity , Due: 2024-02-07T04:59:59Z
+  - Assignment: Journal 4 - Resume Draft, Due: 2024-02-20T20:30:00Z
+  - Assignment: Journal 5 - Contact Email Drafts, Due: 2024-02-28T04:59:59Z
+  - Assignment: Contact Email (Mandatory), Due: 2024-03-13T03:59:59Z
