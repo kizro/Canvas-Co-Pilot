@@ -1,4 +1,4 @@
-//Content.js with backend integration
+// Content.js with backend integration
 // Inject CSS for chat UI
 let chatHistoryContent = ""; // Holds the chat history HTML content
 const link = document.createElement('link');
