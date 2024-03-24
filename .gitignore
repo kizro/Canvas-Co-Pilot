@@ -1,2 +1,3 @@
 config.py
 chat_history.db
+__pycache__
