@@ -1,4 +1,4 @@
-//Content.js with backend integration
+// Content.js with backend integration
 // Inject CSS for chat UI
 let welcomeMessageDisplayed = false;
 let chatHistoryContent = ""; // Holds the chat history HTML content
