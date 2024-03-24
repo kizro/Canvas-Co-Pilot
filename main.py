@@ -15,12 +15,11 @@ CORS(app)
 
 @app.route('/', methods=['GET', 'POST'])
 def initial():
-
-    canvas_url = 'https://canvas.its.virginia.edu/' 
-
-    with open('Canvas_Access_Token.txt', 'r') as file:
-        access_token = file.read().strip() 
-
+    # Your Canvas instance URL
+    canvas_url = 'https://canvas.its.virginia.edu/'  # Change this to your Canvas instance URL
+    # Your Canvas API access token
+    access_token = config.CANVAS_KEY  
+    # The API endpoint for listing the current user's courses
     endpoint = '/api/v1/courses'
 
     params = {
