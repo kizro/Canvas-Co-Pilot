@@ -131,7 +131,9 @@ def prompt():
 
 
     systemContent2 = '''You are an educational assistant chatbot. 
-        Use the following data to answer user query. Please format the answer in an easy to read way. Here are the user's assignments by course: \n'''
+        Use the following data to answer user query. Please format the answer in an easy to read way. Avoid overuse of asteriks and symbols. 
+        For example instead of 1. **Homework Set 3** - **Due Date:** February 27, 2024 at 22:00:00 UTC - **Status:** it would be better to write
+        Homework Set 3 is due on Feb 27, 2024 at 22:00:00 UTC. Here are the user's assignments by course: \n'''
 
     database_path = 'canvas_data.db'
     table_name = "assignments"
@@ -209,7 +211,7 @@ def prompt():
     use this to help you answer queries.''' + ''' \n Here are your previous responses:''' + chatResponses + " use this to help you answer queries."
 
     chatResponse2 = client.chat.completions.create(
-        model="gpt-3.5-turbo",
+        model="gpt-3.5-turbo-1106",
         messages=[
             {"role": "system", "content": systemContent2},
             {"role": "user", "content": userPrompt}
