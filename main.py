@@ -18,7 +18,7 @@ def initial():
     # Your Canvas instance URL
     canvas_url = 'https://canvas.its.virginia.edu/'  # Change this to your Canvas instance URL
     # Your Canvas API access token
-    access_token = '22119~4KFzjJrtWZtW3wkDUrd1hYA41FvclmTMiNkI65gn9YRyTxQdKF3tM8nVnRFygNDA'  # Replace 'your_access_token' with your actual access token
+    access_token = config.CANVAS_KEY  # Replace 'your_access_token' with your actual access token
     # The API endpoint for listing the current user's courses
     endpoint = '/api/v1/courses'
     # Parameters to fetch only actively enrolled courses
