@@ -5,6 +5,11 @@ link.href = chrome.runtime.getURL('chat.css'); // pointing to 'chat.css' in the 
 link.type = 'text/css';
 link.rel = 'stylesheet';
 document.head.appendChild(link);
+const faLink = document.createElement('link');
+faLink.rel = 'stylesheet';
+faLink.href = 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css';
+document.head.appendChild(faLink);
+
 
 function toggleChat(minimize = false) {
     const chatContainer = document.getElementById('chat-container');
@@ -15,7 +20,7 @@ function toggleChat(minimize = false) {
             chatHistoryContent = chatWindow.innerHTML; // Save chat history
         }
         chatContainer.classList.add('minimized');
-        chatContainer.innerHTML = '+'; // Show '+' sign
+        chatContainer.innerHTML = '<i class="fa-solid fa-comments fa-lg"></i>'; 
     } else {
         // Check if it's time to expand
         if (chatContainer.classList.contains('minimized')) {
@@ -35,8 +40,9 @@ function rebuildChatUI() {
     // Clear '+' sign and prepare to add UI elements, without overwriting chat history
     chatContainer.innerHTML = `
         <div id="chat-header">
-            <span>Canvas Co Pilot</span>
-            <button id="close-btn">X</button>
+        <i class="fa-solid fa-comments fa-lg" id="header-logo" alt="Logo"></i> 
+        <span>Canvas Co Pilot</span>
+            <button id="close-btn"><i class="fas fa-times"></i></button>
         </div>
         <div id="chat-window"></div>
         <div style="display: flex;"> <!-- Added flex container for input and button -->
@@ -97,7 +103,7 @@ if (!document.getElementById('chat-container')) {
     const chatContainer = document.createElement('div');
     chatContainer.id = 'chat-container';
     chatContainer.classList.add('minimized'); // Start minimized
-    chatContainer.textContent = '+'; // Show '+' sign
+    chatContainer.innerHTML = '<i class="fa-solid fa-comments fa-lg"></i>'; 
     document.body.appendChild(chatContainer);
 
     // Expand chat when the '+' button is clicked
