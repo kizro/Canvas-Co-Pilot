@@ -107,16 +107,16 @@ def get_course_grades(filtered_courses, canvas_url, headers):
                 submission = submission_response.json() if submission_response.status_code == 200 else {}
 
                 score = submission.get('score', 0)
+                if score is None:
+                    score = 0  # Replace None with 0
+
                 total_score += score
                 total_possible += assignment.get('points_possible', 0)
                 print(f'    Assignment: {assignment["name"]}, Score: {score}, Points Possible: {assignment.get("points_possible", 0)}')
 
-            weighted_grade = (total_score / total_possible) * group_weight if total_possible > 0 else 0
-            print(f'    Weighted Grade: {weighted_grade}')
-
-            # Insert into database
-            cursor.execute("INSERT INTO grades (course, assignment_group, group_weight, grade) VALUES (?, ?, ?, ?)",
-                           (course_name, group_name, group_weight, weighted_grade))
+                # Insert into database
+                cursor.execute("INSERT INTO grades (course_name, group_name, assignment_name, score, points_possible) VALUES (?, ?, ?, ?, ?)",
+                            (course_name, group_name, assignment["name"], score, assignment.get("points_possible", 0)))
 
     conn.commit()
     conn.close()

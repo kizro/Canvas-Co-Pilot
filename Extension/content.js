@@ -170,7 +170,7 @@ if (!document.getElementById('chat-container')) {
     });
 
     // After setting up the chat UI, trigger the function in the Flask app
-   // fetch('http://127.0.0.1:6524/', { method: 'GET' })
-     //   .then(() => console.log("Function triggered in Flask."))
-      //  .catch(error => console.error('Error triggering the function:', error));
+    fetch('http://127.0.0.1:6524/', { method: 'GET' })
+        .then(() => console.log("Function triggered in Flask."))
+        .catch(error => console.error('Error triggering the function:', error));
 }

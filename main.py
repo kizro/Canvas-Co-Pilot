@@ -15,41 +15,42 @@ CORS(app)
 
 @app.route('/', methods=['GET', 'POST'])
 def initial():
-    # Your Canvas instance URL
-    canvas_url = 'https://canvas.its.virginia.edu/'  # Change this to your Canvas instance URL
-    # Your Canvas API access token
-    access_token = '22119~4KFzjJrtWZtW3wkDUrd1hYA41FvclmTMiNkI65gn9YRyTxQdKF3tM8nVnRFygNDA'  # Replace 'your_access_token' with your actual access token
-    # The API endpoint for listing the current user's courses
+
+    canvas_url = 'https://canvas.its.virginia.edu/' 
+
+    with open('Canvas_Access_Token.txt', 'r') as file:
+        access_token = file.read().strip() 
+
     endpoint = '/api/v1/courses'
-    # Parameters to fetch only actively enrolled courses
+
     params = {
         'enrollment_state': 'active',
-        'per_page': 100  # Adjust based on how many courses you expect; helps with pagination
+        'per_page': 100 
     }
-    # Complete URL
+
     url = f'{canvas_url}{endpoint}'
-    # Headers for the request, including the Authorization token
+
     headers = {
         'Authorization': f'Bearer {access_token}'
     }
-    # Make the GET request
+
     response = requests.get(url, headers=headers, params=params)
-    # Check if the request was successful
+
     if response.status_code == 200:
-        # Parse the JSON response 
+
         courses = response.json()
-        # Filter courses by enrollment_term_id
+
         filtered_courses = [course for course in courses if course.get("enrollment_term_id") == 32]
     else:
         print(f'Failed to retrieve courses. Status code: {response.status_code}')
-    # Get the user ID of the currently authenticated user
+
     user_response = requests.get(f'{canvas_url}/api/v1/users/self', headers=headers)
     if user_response.status_code == 200:
         user_id = user_response.json().get('id')
     else:
         print(f'Failed to retrieve user ID. Status code: {user_response.status_code}')
         user_id = None
-    # Get course id and name
+
     for course in filtered_courses:
         course_id = course.get("id", "No ID")
         course_name = course.get("name", "No Name")
@@ -84,26 +85,17 @@ def initial():
     cursor.execute('''
             CREATE TABLE IF NOT EXISTS grades (
                 id INTEGER PRIMARY KEY AUTOINCREMENT,
-                course TEXT,
-                assignment_group TEXT,
-                group_weight REAL,
-                grade REAL
+                course_name TEXT,
+                group_name TEXT,
+                assignment_name TEXT,
+                score REAL,
+                points_possible REAL
             );
         ''')
-    
-    cursor.execute('''
-            CREATE TABLE IF NOT EXISTS calendar_events (
-                id INTEGER PRIMARY KEY AUTOINCREMENT,
-                course TEXT,
-                title TEXT,
-                start_at TEXT,
-                end_at TEXT
-            );
-    ''')
 
     conn.commit()
 
-    cursor.execute(f'SELECT COUNT(*) FROM {"calendar_events"}')
+    cursor.execute(f'SELECT COUNT(*) FROM {"grades"}')
     row_count = cursor.fetchone()[0]
 
     conn.close()
@@ -137,10 +129,9 @@ def initial():
     conn.close()
 
     if (row_count<1):
-        #GetCourseDetail.get_course_assignments(filtered_courses, canvas_url, headers)
-        #GetCourseDetail.get_course_announcements(filtered_courses, canvas_url, headers)
-        GetCourseDetail.get_course_calendar(filtered_courses, canvas_url, headers)
-        #GetCourseDetail.get_course_grades(filtered_courses, canvas_url, headers)
+        GetCourseDetail.get_course_assignments(filtered_courses, canvas_url, headers)
+        GetCourseDetail.get_course_announcements(filtered_courses, canvas_url, headers)
+        GetCourseDetail.get_course_grades(filtered_courses, canvas_url, headers)
 
 @app.route('/prompt', methods=['GET', 'POST'])
 def prompt():
@@ -203,9 +194,31 @@ def prompt():
     conn.close()
 
     systemContent2 = systemContent2 + "Here are the user's announcements by course:" + "Course Data_Type Message Posted_Date Posted_Time Status" + formatted_results 
+
+    table_name = "grades"
+
+    conn = sqlite3.connect(database_path)
+
+    cur = conn.cursor()
+
+    sql_query = f'SELECT * FROM {table_name}'
+
+    cur.execute(sql_query)
+
+    rows = cur.fetchall()
+
+    formatted_results = ""
+
+    for row in rows:
+        concatenated_row = ' '.join(map(str, row)) 
+        formatted_results += concatenated_row + "\n"
     
-    systemContent2 = systemContent2 + '''You have access to all assignments and announcements for every single course. 
-    If the user asks for assignments, you must give them assignments. If they ask for announcements, you must give them announcements. 
+    conn.commit()
+    conn.close()
+
+    systemContent2 = systemContent2 + "Here is the user's grade data by course:" + "course_name group_name group_weight assignment_name score/grade points_possible" +formatted_results
+    
+    systemContent2 = systemContent2 + '''If the user asks for assignments, you must give them assignments. If they ask for announcements, you must give them announcements. 
     If the user does not need information about their courses, simply answer their general questions. When a user asks for the most
     recent assignment sort by the due date. For announcements, sort by the post date and'''
 
