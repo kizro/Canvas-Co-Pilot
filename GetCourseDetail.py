@@ -99,8 +99,6 @@ def get_course_announcements(filtered_courses, canvas_url, headers):
                     file.write(f"  - Announcement: {announcement['title']} | Posted Date: {post_date} | Posted Time: {post_time} | Status: {status}\n")
 
 
-
-
 def clear_files():
     filenames = [
         'Assignments.txt',
