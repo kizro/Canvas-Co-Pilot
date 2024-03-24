@@ -81,9 +81,29 @@ def initial():
     );
     ''')
 
+    cursor.execute('''
+            CREATE TABLE IF NOT EXISTS grades (
+                id INTEGER PRIMARY KEY AUTOINCREMENT,
+                course TEXT,
+                assignment_group TEXT,
+                group_weight REAL,
+                grade REAL
+            );
+        ''')
+    
+    cursor.execute('''
+            CREATE TABLE IF NOT EXISTS calendar_events (
+                id INTEGER PRIMARY KEY AUTOINCREMENT,
+                course TEXT,
+                title TEXT,
+                start_at TEXT,
+                end_at TEXT
+            );
+    ''')
+
     conn.commit()
 
-    cursor.execute(f'SELECT COUNT(*) FROM {"assignments"}')
+    cursor.execute(f'SELECT COUNT(*) FROM {"calendar_events"}')
     row_count = cursor.fetchone()[0]
 
     conn.close()
@@ -116,10 +136,11 @@ def initial():
     conn.commit()
     conn.close()
 
-
     if (row_count<1):
-        GetCourseDetail.get_course_assignments(filtered_courses, canvas_url, headers)
-        GetCourseDetail.get_course_announcements(filtered_courses, canvas_url, headers)
+        #GetCourseDetail.get_course_assignments(filtered_courses, canvas_url, headers)
+        #GetCourseDetail.get_course_announcements(filtered_courses, canvas_url, headers)
+        GetCourseDetail.get_course_calendar(filtered_courses, canvas_url, headers)
+        #GetCourseDetail.get_course_grades(filtered_courses, canvas_url, headers)
 
 @app.route('/prompt', methods=['GET', 'POST'])
 def prompt():
