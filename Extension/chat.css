@@ -12,10 +12,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-<<<<<<< HEAD
     border-radius: 10px;
-=======
->>>>>>> 261dd2b2ec2e3ad3e21637b29e71be2a38cc07c6
 }
 #chat-window {
     height: 85%;
@@ -24,10 +21,7 @@
     padding: 5px;
     margin-bottom: 10px;
     font-size: 16px;
-<<<<<<< HEAD
     border-radius: 10px;
-=======
->>>>>>> 261dd2b2ec2e3ad3e21637b29e71be2a38cc07c6
 }
 #user-input {
     width: calc(100% - 60px);
@@ -36,28 +30,18 @@
     margin-right: 5px;
     box-sizing: border-box;
     height: 40px;
-<<<<<<< HEAD
     border-radius: 10px;
 }
 #send-btn {
     width: 55px;
     background-color: #24A159;
-=======
-}
-#send-btn {
-    width: 55px;
-    background-color: #4CAF50;
->>>>>>> 261dd2b2ec2e3ad3e21637b29e71be2a38cc07c6
     color: white;
     border: none;
     padding: 10px;
     cursor: pointer;
     display: inline-block;
     height: 40px;
-<<<<<<< HEAD
     border-radius: 10px;
-=======
->>>>>>> 261dd2b2ec2e3ad3e21637b29e71be2a38cc07c6
 
 }
 #send-btn:hover {
@@ -76,25 +60,11 @@
     color: rgb(0, 25, 0);
 }
 
-<<<<<<< HEAD
-#chat-container.minimized {
-    background-image: url('./canvas_reversed_logo_green_smaller.png') !important; /* Set the path to your image */
-    background-size: contain; /* Resize the image to fit the container */
-    background-repeat: no-repeat; /* Prevent the image from repeating */
-    background-position: center; /* Center the image */
-}
-
-=======
->>>>>>> 261dd2b2ec2e3ad3e21637b29e71be2a38cc07c6
 #chat-container.minimized, #chat-toggle {
     width: 50px; /* Circle diameter */
     height: 50px; /* Circle diameter */
     border-radius: 50%; /* Makes it a circle */
-<<<<<<< HEAD
     background-color: #24A159; /* Circle background color */
-=======
-    background-color: #4CAF50; /* Circle background color */
->>>>>>> 261dd2b2ec2e3ad3e21637b29e71be2a38cc07c6
     color: white; /* Text/icon color */
     display: flex;
     justify-content: center; /* Center horizontally */
@@ -108,14 +78,11 @@
     text-align: center;
 }
 
-<<<<<<< HEAD
 #chat-container.minimized img {
     width: 100%;
     height: auto;
 }
 
-=======
->>>>>>> 261dd2b2ec2e3ad3e21637b29e71be2a38cc07c6
 
 /* Hides everything when minimzed */
 #chat-container.minimized #chat-window,
@@ -141,12 +108,8 @@
     height: 30px;
 }
 
-<<<<<<< HEAD
 /* #header-logo {
     
     margin-right: 10px;
     margin-top: 5px;
 } */
-=======
-
->>>>>>> 261dd2b2ec2e3ad3e21637b29e71be2a38cc07c6
