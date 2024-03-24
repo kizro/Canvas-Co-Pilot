@@ -6,7 +6,7 @@
     bottom: 20px;
     right: 20px;
     width: 375px;
-    height: 700px;
+    height: 90%;
     border: 1px solid #ccc;
     background-color: #fefefe;
     z-index: 1000;
@@ -32,7 +32,7 @@
     background-color: #ffffff;
     padding: 5px 40px;
     border-radius: 2px;
-    font-family: "Roboto", sans-serif;
+    font-family: "Arial", sans-serif;
     font-weight: 100;
     font-style: normal;
     font-size: 20px;
@@ -40,13 +40,13 @@
 }
 
 .welcome-message {
-    color: #000000; /* or any color you want */
+    color: #232c4ba5; /* or any color you want */
     text-align: center;
     margin-top: 20%; /* Adjust as needed to center it in the chat window */
     font-size: 16px; /* Adjust size as needed */
     padding: 5px; /* Add padding if needed */
     font-family: "Roboto", sans-serif;
-    font-weight: 900;
+    font-weight: 500;
     font-style: normal;
     font-size: 15px;
 }

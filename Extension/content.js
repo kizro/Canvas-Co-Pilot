@@ -1,4 +1,4 @@
-//Content.js with backend integration
+// Content.js with backend integration
 // Inject CSS for chat UI
 let welcomeMessageDisplayed = false;
 let chatHistoryContent = ""; // Holds the chat history HTML content
@@ -142,9 +142,16 @@ function sendMessage() {
 function displayMessage(text, className, id = null) {
     const chatWindow = document.getElementById('chat-window');
     const message = document.createElement('div');
-    message.textContent = text;
+    if (id) message.id = id; // Set the id if provided
     message.className = className;
-    if (id) message.id = id;  // Set the id if provided
+    
+    // Create a pre tag to maintain formatting
+    const preFormattedText = document.createElement('pre');
+    preFormattedText.textContent = text;
+
+    // Append the preFormattedText to the message div
+    message.appendChild(preFormattedText);
+
     chatWindow.appendChild(message);
     chatWindow.scrollTop = chatWindow.scrollHeight; // Scroll to the latest message
 }
