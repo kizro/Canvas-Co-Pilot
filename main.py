@@ -120,35 +120,98 @@ def initial():
     if (row_count<1):
         GetCourseDetail.get_course_assignments(filtered_courses, canvas_url, headers)
         GetCourseDetail.get_course_announcements(filtered_courses, canvas_url, headers)
-        
+
+@app.route('/prompt', methods=['GET', 'POST'])
+def prompt():
+    #OpenAI API Key
+    client = OpenAI(api_key=config.API_KEY)
+
+    data = request.get_json()
+    userPrompt = data['message']
 
 
-    #Converts text file to string
-    def txtToString(file_name):
-        file_path = file_name
-        with open(file_path, 'r') as file:
-            file_contents = file.read()
-        
-        return file_contents
-    #Dictionary of types of prompt data
-    prompt_dictionary = {"Assignments":txtToString("Assignments.txt"), "Announcements" : txtToString("Announcements.txt")}
+    systemContent2 = '''You are an educational assistant chatbot. 
+        Use the following data to answer user query. Please format the answer in an easy to read way. Avoid overuse of asteriks and symbols. 
+        For example instead of 1. **Homework Set 3** - **Due Date:** February 27, 2024 at 22:00:00 UTC - **Status:** it would be better to write
+        Homework Set 3 is due on Feb 27, 2024 at 22:00:00 UTC. Here are the user's assignments by course: \n'''
 
+    database_path = 'canvas_data.db'
+    table_name = "assignments"
 
-    promptList = chatResponseFinal1.split()
+    conn = sqlite3.connect(database_path)
 
-    systemContent2 = '''You are an educational assistant. 
-        Use the following data to answer user query: \n'''
+    cur = conn.cursor()
 
-    for x in promptList:
+    sql_query = f'SELECT * FROM {table_name}'
 
-        systemContent2 = systemContent2 + prompt_dictionary[x] + "\n"
+    cur.execute(sql_query)
+
+    rows = cur.fetchall()
+
+    formatted_results = ""
+
+    for row in rows:
+        concatenated_row = ' '.join(map(str, row)) 
+        formatted_results += concatenated_row + "\n"
+
+    conn.commit()
+    conn.close()
+
+    systemContent2 = systemContent2 + "Course Data_Type Name Due_Date Due_Time Status" + formatted_results 
+
+    
+    table_name = "announcements"
+
+    conn = sqlite3.connect(database_path)
+
+    cur = conn.cursor()
+
+    sql_query = f'SELECT * FROM {table_name}'
+
+    cur.execute(sql_query)
+
+    rows = cur.fetchall()
+
+    formatted_results = ""
+
+    for row in rows:
+        concatenated_row = ' '.join(map(str, row)) 
+        formatted_results += concatenated_row + "\n"
+    
+    conn.commit()
+    conn.close()
+
+    systemContent2 = systemContent2 + "Here are the user's announcements by course:" + "Course Data_Type Message Posted_Date Posted_Time Status" + formatted_results 
+    
+    systemContent2 = systemContent2 + '''You have access to all assignments and announcements for every single course. 
+    If the user asks for assignments, you must give them assignments. If they ask for announcements, you must give them announcements. 
+    If the user does not need information about their courses, simply answer their general questions. When a user asks for the most
+    recent assignment sort by the due date. For announcements, sort by the post date and'''
+
+    conn = sqlite3.connect("chat_history.db")
+    cursor = conn.cursor()
+    cursor.execute(f'SELECT {"chatResponse"} FROM {"responses"}')
+
+    rows = cursor.fetchall()
+
+    chatResponses = '\n'.join([str(row[0]) for row in rows])
+
+    print(chatResponses)
+
+    conn = sqlite3.connect("chat_history.db")
+    cursor = conn.cursor()
+    cursor.execute(f'SELECT {"userQuery"} FROM {"responses"}')
+
+    rows = cursor.fetchall()
+
+    userQueries = '\n'.join([str(row[0]) for row in rows])
 
     systemContent2 = systemContent2 + "This is the current time:" + str(datetime.now(ZoneInfo("America/New_York"))) + ''' use this 
     to help you answer queries (especially those regarding most recent things).''' + '''\n Here are previous user queries: ''' + userQueries + ''' 
     use this to help you answer queries.''' + ''' \n Here are your previous responses:''' + chatResponses + " use this to help you answer queries."
 
     chatResponse2 = client.chat.completions.create(
-        model="gpt-3.5-turbo",
+        model="gpt-3.5-turbo-1106",
         messages=[
             {"role": "system", "content": systemContent2},
             {"role": "user", "content": userPrompt}
