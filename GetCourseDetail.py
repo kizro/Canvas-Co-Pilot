@@ -79,8 +79,6 @@ def get_course_announcements(filtered_courses, canvas_url, headers):
     conn.commit()
     conn.close()
 
-
-
 def clear_files():
     filenames = [
         'Assignments.txt',

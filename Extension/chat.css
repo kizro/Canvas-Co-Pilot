@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+#chat-container {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 375px;
+    height: 700px;
+    border: 1px solid #ccc;
+    background-color: #fefefe;
+    z-index: 1000;
+    padding: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 10px;
+    font-family: "Lato", sans-serif;
+}
+#chat-window {
+    height: 80%;
+    overflow-y: auto;
+    background-color: #fefefe;
+    padding: 5px 20px; /* 5px top and bottom, 20px left and right */
+    margin-bottom: 10px;
+    font-size: 16px;
+    border-radius: 10px;
+}
+#chat-header span {
+    color: #232C4B; /* Change font color */
+    background-color: #ffffff;
+    padding: 5px 40px;
+    border-radius: 2px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 20px;
+    opacity: 0.8;
+}
+
+.welcome-message {
+    color: #000000; /* or any color you want */
+    text-align: center;
+    margin-top: 20%; /* Adjust as needed to center it in the chat window */
+    font-size: 16px; /* Adjust size as needed */
+    padding: 5px; /* Add padding if needed */
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 15px;
+}
+
+#user-input {
+    width: calc(100% - 60px);
+    padding: 10px;
+    border: 1px solid #000000;
+    margin-right: 5px;
+    box-sizing: border-box;
+    height: 40px;
+    border-radius: 10px;
+    font-family: "Lato", sans-serif;
+}
+#send-btn {
+    width: 55px;
+    background-color: #232C4B;
+    border: 5px solid #000000;
+    color: rgb(255, 255, 255);
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    display: inline-block;
+    height: 40px;
+    border-radius: 10px;
+
+}
+#send-btn:hover {
+    opacity: 0.8;
+}
+
+.user-message, .response-message {
+    margin-bottom: 10px; /* Adds space between messages */
+}
+
+.user-message {
+    color: #232C4B;
+    font-family: "Lato", sans-serif;
+}
+
+.response-message {
+    color: rgb(0, 25, 0);
+    font-family: "Lato", sans-serif;
+}
+
+.waiting-message {
+    color: #232C4B; /* Change to any color you prefer */
+    font-style: italic;
+}
+
+
+#chat-container.minimized, #chat-toggle {
+    width: 50px; /* Circle diameter */
+    height: 50px; /* Circle diameter */
+    border-radius: 50%; /* Makes it a circle */
+    background-color: #232C4B; /* Circle background color */
+    color: white; /* Text/icon color */
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    cursor: pointer;
+    z-index: 1001; /* Ensures it's above other content */
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    font-size: 30px; /* Adjust based on the icon size you prefer */
+    text-align: center;
+}
+
+#chat-container.minimized img {
+    width: 100%;
+    height: auto;
+}
+
+
+/* Hides everything when minimzed */
+#chat-container.minimized #chat-window,
+#chat-container.minimized #user-input,
+#chat-container.minimized #send-btn,
+#chat-container.minimized #chat-header {
+    display: none;
+}
+
+.hidden {
+    display: none;
+}
+
+#chat-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+#close-btn {
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+}
+
+
+
+
+
+#header-logo {
+    
+    margin-right: 0px;
+    margin-left: 10px;
+    margin-top: 5px;
+} 
