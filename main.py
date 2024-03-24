@@ -63,7 +63,9 @@ def initial():
     information regarding their assignments. Return the word Announcements if the user asks for information
     regarding their announcements. Return both words separated by a space if the user asks for both types of 
     information. Return the word Announcements if the user asks for anything similiar to the following:
-    "Give me a list of all my course names." "List my courses."
+    "Give me a list of all my course names." "List my courses." Return the word General if the user asks a general question
+    that does not require specific information about their courses, assgnments, or announcements.
+    
     '''
     chatResponse1 = client.chat.completions.create(
         model="gpt-3.5-turbo",
@@ -83,6 +85,23 @@ def initial():
 
     if "Announcements" in chatResponseFinal1:
         GetCourseDetail.get_course_announcements(filtered_courses, canvas_url, headers)
+
+    if "General" in chatResponseFinal1:
+        # This section handles general queries by directly sending them to OpenAI's API
+        general_query_system_content = "You are a knowledgeable assistant. Please provide helpful and informative responses to user queries."
+        general_query_response = client.chat.completions.create(
+            model="gpt-3.5-turbo",
+            messages=[
+                {"role": "system", "content": general_query_system_content},
+                {"role": "user", "content": userPrompt}
+            ]
+        )
+        
+        # Extract the response from OpenAI's completion
+        general_query_final_response = general_query_response.choices[0].message.content
+        
+        # You can now return this response directly to the frontend
+        return jsonify({"response": general_query_final_response})
         
 
 
