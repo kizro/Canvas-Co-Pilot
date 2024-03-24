@@ -39,8 +39,10 @@ function rebuildChatUI() {
             <button id="close-btn">X</button>
         </div>
         <div id="chat-window"></div>
-        <input type="text" id="user-input" placeholder="Type your message...">
-        <button id="send-btn">Send</button>
+        <div style="display: flex;"> <!-- Added flex container for input and button -->
+            <input type="text" id="user-input" placeholder="Type your message...">
+            <button id="send-btn">Send</button>
+        </div>
     `;
 
     // Append the saved chat history if available

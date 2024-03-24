@@ -1,11 +1,12 @@
 import requests
 import GetCourseDetail
+import config 
 
 # Your Canvas instance URL
 canvas_url = 'https://canvas.its.virginia.edu/'  # Change this to your Canvas instance URL
 
 # Your Canvas API access token
-access_token = '22119~CLb4HnemSSlWfgjg539RhvyoE7xfvgO3XGjQ9zbg7XQE4ylJ0pyWnwLrWtr1Au5V'  # Replace 'your_access_token' with your actual access token
+access_token = config.API_KEY  
 
 # The API endpoint for listing the current user's courses
 endpoint = '/api/v1/courses'
