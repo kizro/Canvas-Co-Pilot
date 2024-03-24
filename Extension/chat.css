@@ -23,18 +23,22 @@
 }
 #user-input {
     width: calc(100% - 60px);
-    padding: 20px;
+    padding: 10px;
     border: 1px solid #ccc;
     margin-right: 5px;
     box-sizing: border-box;
+    height: 40px;
 }
 #send-btn {
-    width: 50px;
+    width: 55px;
     background-color: #4CAF50;
     color: white;
     border: none;
     padding: 10px;
     cursor: pointer;
+    display: inline-block;
+    height: 40px;
+
 }
 #send-btn:hover {
     opacity: 0.8;
@@ -87,11 +91,12 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* Add your styles for the header */
+    margin-bottom: 10px;
 }
 #close-btn {
     cursor: pointer;
-    /* Style your close button */
+    width: 30px;
+    height: 30px;
 }
 
 
