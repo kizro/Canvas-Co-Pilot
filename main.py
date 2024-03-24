@@ -18,8 +18,7 @@ def initial():
 
     canvas_url = 'https://canvas.its.virginia.edu/' 
 
-    with open('Canvas_Access_Token.txt', 'r') as file:
-        access_token = file.read().strip() 
+    access_token = config.CANVAS_API_KEY
 
     endpoint = '/api/v1/courses'
 
@@ -136,7 +135,7 @@ def initial():
 @app.route('/prompt', methods=['GET', 'POST'])
 def prompt():
     #OpenAI API Key
-    client = OpenAI(api_key=config.API_KEY)
+    client = OpenAI(api_key=config.OPENAI_API_KEY)
 
     data = request.get_json()
     userPrompt = data['message']
