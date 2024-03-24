@@ -79,11 +79,71 @@ def get_course_announcements(filtered_courses, canvas_url, headers):
     conn.commit()
     conn.close()
 
-def clear_files():
-    filenames = [
-        'Assignments.txt',
-        'Announcements.txt',
-    ]
-    for filename in filenames:
-        with open(filename, 'w') as file:
-            file.write('')  # Write an empty string to clear the file
+def get_course_grades(filtered_courses, canvas_url, headers):
+    conn = sqlite3.connect('canvas_data.db')
+    cursor = conn.cursor()
+
+    for course in filtered_courses:
+        course_id = course.get("id", "No ID")
+        course_name = course.get("name", "No Name")
+        print(f'Fetching grades for course: {course_name}')
+
+        # Fetch the assignment groups for the course
+        groups_url = f'{canvas_url}/api/v1/courses/{course_id}/assignment_groups?include[]=assignments'
+        groups_response = requests.get(groups_url, headers=headers)
+        assignment_groups = groups_response.json() if groups_response.status_code == 200 else []
+
+        for group in assignment_groups:
+            group_name = group.get('name', 'No name')
+            group_weight = group.get('group_weight', 0)
+            print(f'  Assignment Group: {group_name}, Weight: {group_weight}')
+
+            # Calculate the weighted grade for the assignment group
+            total_score = 0
+            total_possible = 0
+            for assignment in group['assignments']:
+                submission_url = f'{canvas_url}/api/v1/courses/{course_id}/assignments/{assignment["id"]}/submissions/self'
+                submission_response = requests.get(submission_url, headers=headers)
+                submission = submission_response.json() if submission_response.status_code == 200 else {}
+
+                score = submission.get('score', 0)
+                total_score += score
+                total_possible += assignment.get('points_possible', 0)
+                print(f'    Assignment: {assignment["name"]}, Score: {score}, Points Possible: {assignment.get("points_possible", 0)}')
+
+            weighted_grade = (total_score / total_possible) * group_weight if total_possible > 0 else 0
+            print(f'    Weighted Grade: {weighted_grade}')
+
+            # Insert into database
+            cursor.execute("INSERT INTO grades (course, assignment_group, group_weight, grade) VALUES (?, ?, ?, ?)",
+                           (course_name, group_name, group_weight, weighted_grade))
+
+    conn.commit()
+    conn.close()
+
+def get_course_calendar(filtered_courses, canvas_url, headers):
+    conn = sqlite3.connect('canvas_data.db')
+    cursor = conn.cursor()
+
+    for course in filtered_courses:
+        course_id = course.get("id", "No ID")
+        course_name = course.get("name", "No Name")
+        print(f'Fetching calendar events for course: {course_name}')
+
+        # Fetch the calendar events for the course
+        events_url = f'{canvas_url}/api/v1/calendar_events?context_codes[]=course_{course_id}&type=event'
+        events_response = requests.get(events_url, headers=headers)
+        events = events_response.json() if events_response.status_code == 200 else []
+
+        for event in events:
+            title = event.get('title', 'No title')
+            start_at = event.get('start_at', 'No start date')
+            end_at = event.get('end_at', 'No end date')
+            print(f'  Event: {title}, Start: {start_at}, End: {end_at}')
+
+            # Insert into database
+            cursor.execute("INSERT INTO calendar_events (course, title, start_at, end_at) VALUES (?, ?, ?, ?)",
+                           (course_name, title, start_at, end_at))
+
+    conn.commit()
+    conn.close()
