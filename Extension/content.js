@@ -1,5 +1,6 @@
 //Content.js with backend integration
 // Inject CSS for chat UI
+let welcomeMessageDisplayed = false;
 let chatHistoryContent = ""; // Holds the chat history HTML content
 const link = document.createElement('link');
 link.href = chrome.runtime.getURL('chat.css'); // pointing to 'chat.css' in the extension directory
@@ -28,7 +29,18 @@ function toggleChat(minimize = false) {
             chatContainer.classList.remove('minimized');
             rebuildChatUI();
             const chatWindow = document.getElementById('chat-window');
-            if (chatWindow) {
+            if (!welcomeMessageDisplayed) {
+                const welcomeMessageDiv = document.createElement('div');
+                welcomeMessageDiv.className = 'welcome-message';
+                welcomeMessageDiv.innerHTML = `
+                <p>Hi, I'm Canvas Copilot. <span class="wave">👋</span></p>
+                <p>I'm your 24/7 assistant for all things school.</p>
+                <p>You can ask me about your assignments, deadlines, announcements, grades, quizzes, or any general questions!</p>
+            `;
+                chatWindow.appendChild(welcomeMessageDiv);
+                welcomeMessageDisplayed = true;
+            } else if (chatWindow) {
+                chatWindow.innerHTML = '';
                 chatWindow.innerHTML = chatHistoryContent; // Restore chat history
             }
         }
@@ -41,7 +53,7 @@ function rebuildChatUI() {
     chatContainer.innerHTML = `
         <div id="chat-header">
         <i class="fa-solid fa-comments fa-lg" id="header-logo" alt="Logo"></i> 
-        <span>Canvas Co Pilot</span>
+        <span>Canvas Copilot!</span>
             <button id="close-btn"><i class="fas fa-times"></i></button>
         </div>
         <div id="chat-window"></div>
@@ -81,8 +93,18 @@ function sendMessage() {
     const userText = userInputField.value.trim();
 
     if (userText) {
+
+        const welcomeMessageDiv = document.querySelector('.welcome-message');
+        if (welcomeMessageDiv) {
+            chatWindow.removeChild(welcomeMessageDiv);
+            welcomeMessageDisplayed = true; // Update the flag to prevent showing the welcome message again
+        }
         // Display user's message in the chat
-        displayMessage(userText, 'user-message');
+        displayMessage(`You: ${userText}`, 'user-message');
+
+        //Waiting Message
+        const waitingMessageId = 'waiting-message';
+        displayMessage('Waiting...', 'waiting-message waiting-message', waitingMessageId);
 
         // AJAX POST request to the Flask '/prompt' route
         fetch('http://127.0.0.1:6524/prompt', {
@@ -94,11 +116,18 @@ function sendMessage() {
         })
         .then(response => response.json())
         .then(data => {
+
+            // Remove the "waiting..." message
+            removeMessage(waitingMessageId);
+
             // Display the response from Flask backend
             displayMessage(`Co-Pilot: ${data.response}`, 'response-message');
         })
         .catch((error) => {
-            console.error('Error:', error);
+            // Remove the "waiting..." message
+            removeMessage(waitingMessageId);
+
+            //console.error('Error:', error);
             displayMessage("Error: Could not get a response.", 'response-message');
         });
 
@@ -110,12 +139,21 @@ function sendMessage() {
 // Your displayMessage function remains unchanged
 
 
-function displayMessage(text, className) {
+function displayMessage(text, className, id = null) {
     const chatWindow = document.getElementById('chat-window');
     const message = document.createElement('div');
     message.textContent = text;
     message.className = className;
+    if (id) message.id = id;  // Set the id if provided
     chatWindow.appendChild(message);
+    chatWindow.scrollTop = chatWindow.scrollHeight; // Scroll to the latest message
+}
+
+function removeMessage(messageId) {
+    const messageToRemove = document.getElementById(messageId);
+    if (messageToRemove) {
+        messageToRemove.parentNode.removeChild(messageToRemove);
+    }
 }
 
 // Initial chat UI setup

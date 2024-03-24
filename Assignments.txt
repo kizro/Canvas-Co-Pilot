@@ -7,25 +7,25 @@ Course: 24Sp Data Structures and Algo 1 (ID: 95142)
   - Assignment: HW5 - Vectors | Due Date: 2024-02-29 | Due Time: 04:59:59Z | Status: Past due | Remaining Time: N/A
   - Assignment: HW6 - LinkedList Queue | Due Date: 2024-03-14 | Due Time: 03:59:00Z | Status: Past due | Remaining Time: N/A
   - Assignment: HW7 - Big Oh | Due Date: 2024-03-21 | Due Time: 03:59:59Z | Status: Past due | Remaining Time: N/A
-  - Assignment: HW8-Recursion | Due Date: 2024-03-28 | Due Time: 03:59:59Z | Status: Active | Remaining Time: 3 days, 23 hours, 7 minutes
+  - Assignment: HW8-Recursion | Due Date: 2024-03-28 | Due Time: 03:59:59Z | Status: Active | Remaining Time: 3 days, 19 hours, 8 minutes
   - Assignment: Lab 01 | Due Date: 2024-01-30 | Due Time: 04:59:00Z | Status: Past due | Remaining Time: N/A
   - Assignment: Lab 02 - Strings and Arrays | Due Date: 2024-02-06 | Due Time: 04:59:00Z | Status: Past due | Remaining Time: N/A
   - Assignment: Lab 03 - Testing | Due Date: 2024-02-13 | Due Time: 04:59:59Z | Status: Past due | Remaining Time: N/A
   - Assignment: Lab 04 - ArrayList | Due Date: 2024-02-27 | Due Time: 04:59:59Z | Status: Past due | Remaining Time: N/A
   - Assignment: Lab 05 - Debugging | Due Date: 2024-03-19 | Due Time: 03:59:59Z | Status: Past due | Remaining Time: N/A
-  - Assignment: Lab 06 - Recursion | Due Date: 2024-03-26 | Due Time: 03:59:00Z | Status: Active | Remaining Time: 1 days, 23 hours, 6 minutes
+  - Assignment: Lab 06 - Recursion | Due Date: 2024-03-26 | Due Time: 03:59:00Z | Status: Active | Remaining Time: 1 days, 19 hours, 7 minutes
   - Assignment: Quiz 1A | Due Date: 2024-02-13 | Due Time: 04:59:00Z | Status: Past due | Remaining Time: N/A
   - Assignment: Quiz 2A | Due Date: 2024-02-27 | Due Time: 04:59:00Z | Status: Past due | Remaining Time: N/A
-  - Assignment: Quiz 3A | Due Date: 2024-03-26 | Due Time: 03:59:00Z | Status: Active | Remaining Time: 1 days, 23 hours, 6 minutes
+  - Assignment: Quiz 3A | Due Date: 2024-03-26 | Due Time: 03:59:00Z | Status: Active | Remaining Time: 1 days, 19 hours, 7 minutes
   - Assignment: Quiz 1B | Due Date: 2024-02-13 | Due Time: 00:00:00Z | Status: Past due | Remaining Time: N/A
   - Assignment: Quiz 2B | Due Date: 2024-02-26 | Due Time: 23:00:00Z | Status: Past due | Remaining Time: N/A
   - Assignment: Inheritance - Animals | Due Date: 2024-02-27 | Due Time: 02:00:00Z | Status: Past due | Remaining Time: N/A
-  - Assignment: Linked Lists | Due Date: 2024-03-26 | Due Time: 03:59:59Z | Status: Active | Remaining Time: 1 days, 23 hours, 7 minutes
+  - Assignment: Linked Lists | Due Date: 2024-03-26 | Due Time: 03:59:59Z | Status: Active | Remaining Time: 1 days, 19 hours, 8 minutes
   - Assignment: Notes for Quiz 1 | Due Date: 2024-02-09 | Due Time: 18:00:00Z | Status: Past due | Remaining Time: N/A
   - Assignment: Notes for Quiz 2 | Due Date: 2024-02-23 | Due Time: 18:00:00Z | Status: Past due | Remaining Time: N/A
   - Assignment: Notes for Quiz 3 | Due Date: 2024-03-22 | Due Time: 17:00:00Z | Status: Past due | Remaining Time: N/A
-  - Assignment: Notes for Quiz 4 | Due Date: 2024-04-12 | Due Time: 17:00:00Z | Status: Active | Remaining Time: 19 days, 12 hours, 7 minutes
-  - Assignment: Notes for Quiz 5 | Due Date: 2024-04-26 | Due Time: 17:00:00Z | Status: Active | Remaining Time: 33 days, 12 hours, 7 minutes
+  - Assignment: Notes for Quiz 4 | Due Date: 2024-04-12 | Due Time: 17:00:00Z | Status: Active | Remaining Time: 19 days, 8 hours, 8 minutes
+  - Assignment: Notes for Quiz 5 | Due Date: 2024-04-26 | Due Time: 17:00:00Z | Status: Active | Remaining Time: 33 days, 8 hours, 8 minutes
 Course: 24Sp Engineering Foundations 2 (ID: 101792)
   - Assignment: Professional Email Assignment | Due Date: 2024-01-25 | Due Time: 04:59:59Z | Status: Past due | Remaining Time: N/A
   - Assignment: Arduino Assignment 1 | Due Date: 2024-01-22 | Due Time: 17:30:00Z | Status: Past due | Remaining Time: N/A
@@ -36,38 +36,38 @@ Course: 24Sp Engineering Foundations 2 (ID: 101792)
   - Assignment: Chapter 2 - Problem Definition and Background Draft | Due Date: 2024-03-02 | Due Time: 04:59:59Z | Status: Past due | Remaining Time: N/A
   - Assignment: Phase 1 engineering notebook check | Due Date: 2024-02-26 | Due Time: 04:59:59Z | Status: Past due | Remaining Time: N/A
   - Assignment: In Class Problem Definition Discussion | Due Date: 2024-02-27 | Due Time: 04:59:59Z | Status: Past due | Remaining Time: N/A
-  - Assignment: Phase 2 - Bill of Materials | Due Date: 2024-03-28 | Due Time: 21:00:00Z | Status: Active | Remaining Time: 4 days, 16 hours, 7 minutes
+  - Assignment: Phase 2 - Bill of Materials | Due Date: 2024-03-28 | Due Time: 21:00:00Z | Status: Active | Remaining Time: 4 days, 12 hours, 8 minutes
   - Assignment: Oral Speed Presentations (Idea Slides) | Due Date: 2024-03-13 | Due Time: 16:30:00Z | Status: Past due | Remaining Time: N/A
   - Assignment: Idea Selection Document | Due Date: 2024-03-18 | Due Time: 03:59:59Z | Status: Past due | Remaining Time: N/A
-  - Assignment: Chapter 3 - Initial Solution Ideation Draft  | Due Date: 2024-04-01 | Due Time: 03:59:59Z | Status: Active | Remaining Time: 7 days, 23 hours, 7 minutes
+  - Assignment: Chapter 3 - Initial Solution Ideation Draft  | Due Date: 2024-04-01 | Due Time: 03:59:59Z | Status: Active | Remaining Time: 7 days, 19 hours, 8 minutes
   - Assignment: Pre-Work for Career Design Session #3 | Due Date: 2024-02-05 | Due Time: 04:59:59Z | Status: Past due | Remaining Time: N/A
   - Assignment: Career/Life Design Interview | Due Date: 2024-03-14 | Due Time: 03:59:59Z | Status: Past due | Remaining Time: N/A
-  - Assignment: Final Career Design Project: Odyssey Plans | Due Date: 2024-04-04 | Due Time: 03:59:59Z | Status: Active | Remaining Time: 10 days, 23 hours, 7 minutes
+  - Assignment: Final Career Design Project: Odyssey Plans | Due Date: 2024-04-04 | Due Time: 03:59:59Z | Status: Active | Remaining Time: 10 days, 19 hours, 8 minutes
   - Assignment: Soldering Workshop Submission | Due Date: 2024-02-01 | Due Time: 04:59:59Z | Status: Past due | Remaining Time: N/A
 Course: 24Sp Intro Physics 1 Workshop (ID: 89720)
   - Assignment: Final score | Due Date: 2023-12-13 | Due Time: 01:21:00Z | Status: Past due | Remaining Time: N/A
 Course: 24Sp Intro to Entrepreneurship (ID: 95694)
   - Assignment: Review Syllabus and General Materials | Due Date: 2024-01-19 | Due Time: 04:59:59Z | Status: Past due | Remaining Time: N/A
-  - Assignment: Read "Debt Vs Equity: Whats the Difference?" | Due Date: 2024-04-18 | Due Time: 18:00:00Z | Status: Active | Remaining Time: 25 days, 13 hours, 7 minutes
-  - Assignment: Read "The Market Curve" | Due Date: 2024-04-16 | Due Time: 18:00:00Z | Status: Active | Remaining Time: 23 days, 13 hours, 7 minutes
+  - Assignment: Read "Debt Vs Equity: Whats the Difference?" | Due Date: 2024-04-18 | Due Time: 18:00:00Z | Status: Active | Remaining Time: 25 days, 9 hours, 8 minutes
+  - Assignment: Read "The Market Curve" | Due Date: 2024-04-16 | Due Time: 18:00:00Z | Status: Active | Remaining Time: 23 days, 9 hours, 8 minutes
   - Assignment: Eric Kelley Guest Discussion | Due Date: 2024-02-15 | Due Time: 19:00:00Z | Status: Past due | Remaining Time: N/A
   - Assignment: "How Great Leaders Inspire Action" Online Discussion Thread | Due Date: 2024-02-14 | Due Time: 04:59:59Z | Status: Past due | Remaining Time: N/A
-  - Assignment: Timm Chiusano Discussion Thread | Due Date: 2024-03-26 | Due Time: 18:00:00Z | Status: Active | Remaining Time: 2 days, 13 hours, 7 minutes
+  - Assignment: Timm Chiusano Discussion Thread | Due Date: 2024-03-26 | Due Time: 18:00:00Z | Status: Active | Remaining Time: 2 days, 9 hours, 8 minutes
   - Assignment: "Everything is a remix" Discussion | Due Date: 2024-02-08 | Due Time: 19:00:00Z | Status: Past due | Remaining Time: N/A
   - Assignment: "Before the Startup" Online Discussion Thread | Due Date: 2024-01-23 | Due Time: 19:00:00Z | Status: Past due | Remaining Time: N/A
   - Assignment: Kathryn Budig Guest Discussion | Due Date: 2024-03-20 | Due Time: 03:59:59Z | Status: Past due | Remaining Time: N/A
   - Assignment: Effectuation Theory Discussion Thread | Due Date: 2024-01-30 | Due Time: 19:00:00Z | Status: Past due | Remaining Time: N/A
   - Assignment: Leah Culver Guest Discussion | Due Date: 2024-02-29 | Due Time: 19:00:00Z | Status: Past due | Remaining Time: N/A
   - Assignment: "Art of Asking" Online Discussion Thread | Due Date: 2024-02-02 | Due Time: 04:59:59Z | Status: Past due | Remaining Time: N/A
-  - Assignment: "Do Things That Don't Scale" Discussion Thread | Due Date: 2024-04-11 | Due Time: 18:00:00Z | Status: Active | Remaining Time: 18 days, 13 hours, 7 minutes
+  - Assignment: "Do Things That Don't Scale" Discussion Thread | Due Date: 2024-04-11 | Due Time: 18:00:00Z | Status: Active | Remaining Time: 18 days, 9 hours, 8 minutes
   - Assignment: "Connect The Dots" Online Discussion Thread | Due Date: 2024-02-07 | Due Time: 04:59:59Z | Status: Past due | Remaining Time: N/A
   - Assignment: "How Great Entrepreneurs Think" Discussion Thread | Due Date: 2024-01-26 | Due Time: 04:59:59Z | Status: Past due | Remaining Time: N/A
   - Assignment: Rachael King Guest Online Discussion | Due Date: 2024-02-22 | Due Time: 19:00:00Z | Status: Past due | Remaining Time: N/A
-  - Assignment: Brian Jones Guest Online Discussion | Due Date: 2024-04-16 | Due Time: 18:00:00Z | Status: Active | Remaining Time: 23 days, 13 hours, 7 minutes
+  - Assignment: Brian Jones Guest Online Discussion | Due Date: 2024-04-16 | Due Time: 18:00:00Z | Status: Active | Remaining Time: 23 days, 9 hours, 8 minutes
   - Assignment: "What Google Learned From It's Quest..." Online Discussion | Due Date: 2024-03-19 | Due Time: 18:00:00Z | Status: Past due | Remaining Time: N/A
-  - Assignment: "How to Sell Anything" Online Discussion | Due Date: 2024-03-28 | Due Time: 18:00:00Z | Status: Active | Remaining Time: 4 days, 13 hours, 7 minutes
-  - Assignment: Favorite Ad Discussion | Due Date: 2024-04-02 | Due Time: 18:00:00Z | Status: Active | Remaining Time: 9 days, 13 hours, 7 minutes
-  - Assignment: Financing Panel Questions | Due Date: 2024-04-18 | Due Time: 18:00:00Z | Status: Active | Remaining Time: 25 days, 13 hours, 7 minutes
+  - Assignment: "How to Sell Anything" Online Discussion | Due Date: 2024-03-28 | Due Time: 18:00:00Z | Status: Active | Remaining Time: 4 days, 9 hours, 8 minutes
+  - Assignment: Favorite Ad Discussion | Due Date: 2024-04-02 | Due Time: 18:00:00Z | Status: Active | Remaining Time: 9 days, 9 hours, 8 minutes
+  - Assignment: Financing Panel Questions | Due Date: 2024-04-18 | Due Time: 18:00:00Z | Status: Active | Remaining Time: 25 days, 9 hours, 8 minutes
   - Assignment: Hopes, Wishes, Fears, and Concerns Survey | Due Date: 2024-01-24 | Due Time: 04:59:00Z | Status: Past due | Remaining Time: N/A
   - Assignment: Communication & Topics Survery | Due Date: 2024-01-24 | Due Time: 04:59:00Z | Status: Past due | Remaining Time: N/A
   - Assignment: Reflection Video 1: Product or Service | Due Date: 2024-02-08 | Due Time: 19:00:00Z | Status: Past due | Remaining Time: N/A
@@ -75,11 +75,11 @@ Course: 24Sp Intro to Entrepreneurship (ID: 95694)
   - Assignment: Reflection Video 3: Design Thinking | Due Date: 2024-02-27 | Due Time: 19:00:00Z | Status: Past due | Remaining Time: N/A
   - Assignment: Reflection Video 4: Team Formation & Ideation | Due Date: 2024-03-12 | Due Time: 18:00:00Z | Status: Past due | Remaining Time: N/A
   - Assignment: Reflection Video 5: Customer Discovery & Validating Your Idea | Due Date: 2024-03-19 | Due Time: 18:00:00Z | Status: Past due | Remaining Time: N/A
-  - Assignment: Reflection Video 6: MVPs | Due Date: 2024-03-28 | Due Time: 18:00:00Z | Status: Active | Remaining Time: 4 days, 13 hours, 7 minutes
+  - Assignment: Reflection Video 6: MVPs | Due Date: 2024-03-28 | Due Time: 18:00:00Z | Status: Active | Remaining Time: 4 days, 9 hours, 8 minutes
   - Assignment: Review the "Effectual Sprint Exercise" Page Found in This Module | Due Date: 2024-02-01 | Due Time: 19:00:00Z | Status: Past due | Remaining Time: N/A
   - Assignment: Read "All-Purpose Career Tips" | Due Date: 2024-03-21 | Due Time: 18:00:00Z | Status: Past due | Remaining Time: N/A
   - Assignment: Read "Product Market Fit: Experience & Data" | Due Date: 2024-02-29 | Due Time: 19:00:00Z | Status: Past due | Remaining Time: N/A
-  - Assignment: Read Husk Power Case Study | Due Date: 2024-04-18 | Due Time: 18:00:00Z | Status: Active | Remaining Time: 25 days, 13 hours, 7 minutes
+  - Assignment: Read Husk Power Case Study | Due Date: 2024-04-18 | Due Time: 18:00:00Z | Status: Active | Remaining Time: 25 days, 9 hours, 8 minutes
   - Assignment: Read "WTF is Prototyping?" | Due Date: 2024-03-14 | Due Time: 18:00:00Z | Status: Past due | Remaining Time: N/A
   - Assignment: Read "Open-Ended vs. Closed Questions in User Research" | Due Date: 2024-02-27 | Due Time: 19:00:00Z | Status: Past due | Remaining Time: N/A
   - Assignment: Read "The Experimentation Layer" | Due Date: 2024-02-23 | Due Time: 04:59:59Z | Status: Past due | Remaining Time: N/A
@@ -88,29 +88,29 @@ Course: 24Sp Intro to Entrepreneurship (ID: 95694)
   - Assignment: Read "Chase Your Weird Ideas at Work" | Due Date: 2024-03-21 | Due Time: 18:00:00Z | Status: Past due | Remaining Time: N/A
   - Assignment: Read "Achieving Product Marketing Fit with the Value Proposition Canvas" | Due Date: 2024-02-29 | Due Time: 19:00:00Z | Status: Past due | Remaining Time: N/A
   - Assignment: Read "Before the Startup" by Paul Graham | Due Date: 2024-01-23 | Due Time: 19:00:00Z | Status: Past due | Remaining Time: N/A
-  - Assignment: Read "The Startup Pitch" | Due Date: 2024-03-28 | Due Time: 18:00:00Z | Status: Active | Remaining Time: 4 days, 13 hours, 7 minutes
+  - Assignment: Read "The Startup Pitch" | Due Date: 2024-03-28 | Due Time: 18:00:00Z | Status: Active | Remaining Time: 4 days, 9 hours, 8 minutes
   - Assignment: Read "How Great Entrepreneurs Think" (Inc Magazine) | Due Date: 2024-01-25 | Due Time: 19:00:00Z | Status: Past due | Remaining Time: N/A
   - Assignment: Read "How to Be a Good Interviewer" | Due Date: 2024-01-30 | Due Time: 19:00:00Z | Status: Past due | Remaining Time: N/A
   - Assignment: Read "Savage Beast" Case Study | Due Date: 2024-01-25 | Due Time: 19:00:00Z | Status: Past due | Remaining Time: N/A
   - Assignment: Read "Kids Swag: Building an Opportunity Around Diversity" Case Study | Due Date: 2024-03-12 | Due Time: 18:00:00Z | Status: Past due | Remaining Time: N/A
-  - Assignment: Read "1000 True Fans" | Due Date: 2024-04-02 | Due Time: 18:00:00Z | Status: Active | Remaining Time: 9 days, 13 hours, 7 minutes
+  - Assignment: Read "1000 True Fans" | Due Date: 2024-04-02 | Due Time: 18:00:00Z | Status: Active | Remaining Time: 9 days, 9 hours, 8 minutes
   - Assignment: Read "What Google Learned From Its Quest to Build the Perfect Team" | Due Date: 2024-03-19 | Due Time: 18:00:00Z | Status: Past due | Remaining Time: N/A
-  - Assignment: Read "Do Things that Don't Scale" | Due Date: 2024-04-11 | Due Time: 18:00:00Z | Status: Active | Remaining Time: 18 days, 13 hours, 7 minutes
+  - Assignment: Read "Do Things that Don't Scale" | Due Date: 2024-04-11 | Due Time: 18:00:00Z | Status: Active | Remaining Time: 18 days, 9 hours, 8 minutes
   - Assignment: Read "The Double Diamond" | Due Date: 2024-02-15 | Due Time: 19:00:00Z | Status: Past due | Remaining Time: N/A
   - Assignment: Read Reframing a Problem Unlocks Innovation | Due Date: 2024-02-15 | Due Time: 19:00:00Z | Status: Past due | Remaining Time: N/A
-  - Assignment: Read "How to design a better pitch deck" | Due Date: 2024-03-26 | Due Time: 18:00:00Z | Status: Active | Remaining Time: 2 days, 13 hours, 7 minutes
+  - Assignment: Read "How to design a better pitch deck" | Due Date: 2024-03-26 | Due Time: 18:00:00Z | Status: Active | Remaining Time: 2 days, 9 hours, 8 minutes
   - Assignment: Read "How to Get Startup Ideas" | Due Date: 2024-02-21 | Due Time: 04:59:59Z | Status: Past due | Remaining Time: N/A
-  - Assignment: Read "How to Build Your Seed Round Deck" | Due Date: 2024-03-26 | Due Time: 18:00:00Z | Status: Active | Remaining Time: 2 days, 13 hours, 7 minutes
+  - Assignment: Read "How to Build Your Seed Round Deck" | Due Date: 2024-03-26 | Due Time: 18:00:00Z | Status: Active | Remaining Time: 2 days, 9 hours, 8 minutes
   - Assignment: Read "How To Nail an Interview" | Due Date: 2024-03-21 | Due Time: 18:00:00Z | Status: Past due | Remaining Time: N/A
   - Assignment: Read "The Project Economy Has Arrived" | Due Date: 2024-02-19 | Due Time: 19:00:00Z | Status: Past due | Remaining Time: N/A
-  - Assignment: Watch "Evergreen Marketing and Growth Principles" | Due Date: 2024-04-02 | Due Time: 18:00:00Z | Status: Active | Remaining Time: 9 days, 13 hours, 7 minutes
-  - Assignment: Watch "How to Sell Anything" | Due Date: 2024-03-28 | Due Time: 18:00:00Z | Status: Active | Remaining Time: 4 days, 13 hours, 7 minutes
+  - Assignment: Watch "Evergreen Marketing and Growth Principles" | Due Date: 2024-04-02 | Due Time: 18:00:00Z | Status: Active | Remaining Time: 9 days, 9 hours, 8 minutes
+  - Assignment: Watch "How to Sell Anything" | Due Date: 2024-03-28 | Due Time: 18:00:00Z | Status: Active | Remaining Time: 4 days, 9 hours, 8 minutes
   - Assignment: Watch "Before the Startup" | Due Date: No due date | Due Time: No due time | Status: No due date | Remaining Time: N/A
   - Assignment: Watch "Why All Young People Should be Entrepreneurs" | Due Date: 2024-01-23 | Due Time: 19:00:00Z | Status: Past due | Remaining Time: N/A
   - Assignment: Watch "Entrepreneurial DNA" | Due Date: No due date | Due Time: No due time | Status: No due date | Remaining Time: N/A
   - Assignment: Watch "How to Talk to Users" | Due Date: 2024-02-27 | Due Time: 19:00:00Z | Status: Past due | Remaining Time: N/A
-  - Assignment: Watch "Growth for Startups" | Due Date: 2024-04-11 | Due Time: 18:00:00Z | Status: Active | Remaining Time: 18 days, 13 hours, 7 minutes
-  - Assignment: Watch "This Marketing Message Works Every Time" | Due Date: 2024-04-02 | Due Time: 18:00:00Z | Status: Active | Remaining Time: 9 days, 13 hours, 7 minutes
+  - Assignment: Watch "Growth for Startups" | Due Date: 2024-04-11 | Due Time: 18:00:00Z | Status: Active | Remaining Time: 18 days, 9 hours, 8 minutes
+  - Assignment: Watch "This Marketing Message Works Every Time" | Due Date: 2024-04-02 | Due Time: 18:00:00Z | Status: Active | Remaining Time: 9 days, 9 hours, 8 minutes
   - Assignment: Watch "The Four Stages of Podcasting" | Due Date: 2024-02-20 | Due Time: 19:00:00Z | Status: Past due | Remaining Time: N/A
   - Assignment: Watch Steve Jobs "Connect the Dots" Speech (14 min) | Due Date: 2024-02-06 | Due Time: 19:00:00Z | Status: Past due | Remaining Time: N/A
   - Assignment: Video: Effectuation Stories 2 (6 mins) | Due Date: 2024-02-01 | Due Time: 19:00:00Z | Status: Past due | Remaining Time: N/A
@@ -123,16 +123,16 @@ Course: 24Sp Intro to Entrepreneurship (ID: 95694)
   - Assignment: Watch "Experiment Board Tutorial" | Due Date: 2024-02-22 | Due Time: 19:00:00Z | Status: Past due | Remaining Time: N/A
   - Assignment: Watch "How to Build an MVP" | Due Date: 2024-03-14 | Due Time: 18:00:00Z | Status: Past due | Remaining Time: N/A
   - Assignment: Watch "Lean Startup" (28 min) | Due Date: 2024-02-21 | Due Time: 04:59:00Z | Status: Past due | Remaining Time: N/A
-  - Assignment: Watch "Minimum Viable Product and Pivoting" | Due Date: 2024-03-26 | Due Time: 18:00:00Z | Status: Active | Remaining Time: 2 days, 13 hours, 7 minutes
+  - Assignment: Watch "Minimum Viable Product and Pivoting" | Due Date: 2024-03-26 | Due Time: 18:00:00Z | Status: Active | Remaining Time: 2 days, 9 hours, 8 minutes
   - Assignment: Video: "The Art of Asking" (14 min) | Due Date: 2024-02-01 | Due Time: 19:00:00Z | Status: Past due | Remaining Time: N/A
-  - Assignment: Watch "Expenses & Costs - How to Spend Money Wisely" | Due Date: 2024-04-09 | Due Time: 18:00:00Z | Status: Active | Remaining Time: 16 days, 13 hours, 7 minutes
+  - Assignment: Watch "Expenses & Costs - How to Spend Money Wisely" | Due Date: 2024-04-09 | Due Time: 18:00:00Z | Status: Active | Remaining Time: 16 days, 9 hours, 8 minutes
   - Assignment: Watch "Isolation is the Dream Killer" video (from 11:42 onward.) | Due Date: 2024-01-23 | Due Time: 19:00:00Z | Status: Past due | Remaining Time: N/A
   - Assignment: Watch "How Great Leaders Inspire Action" Video (18 min) | Due Date: 2024-02-13 | Due Time: 19:00:00Z | Status: Past due | Remaining Time: N/A
   - Assignment: Watch "Overview of the Principles of Effectuation" (3 min) | Due Date: 2024-01-30 | Due Time: 19:00:00Z | Status: Past due | Remaining Time: N/A
-  - Assignment: Watch "Understanding Financial Statements and Accounting" | Due Date: 2024-04-09 | Due Time: 18:00:00Z | Status: Active | Remaining Time: 16 days, 13 hours, 7 minutes
+  - Assignment: Watch "Understanding Financial Statements and Accounting" | Due Date: 2024-04-09 | Due Time: 18:00:00Z | Status: Active | Remaining Time: 16 days, 9 hours, 8 minutes
   - Assignment: Watch "Saras Sarasvathy Explains the Entrepreneurial Method" (8 min) | Due Date: 2024-01-30 | Due Time: 19:00:00Z | Status: Past due | Remaining Time: N/A
   - Assignment: Watch "Cooking and Venture Building" Video (1.5 mins) | Due Date: 2024-01-30 | Due Time: 19:00:00Z | Status: Past due | Remaining Time: N/A
-  - Assignment: Watch "Product Positioning Strategies" | Due Date: 2024-03-28 | Due Time: 18:00:00Z | Status: Active | Remaining Time: 4 days, 13 hours, 7 minutes
+  - Assignment: Watch "Product Positioning Strategies" | Due Date: 2024-03-28 | Due Time: 18:00:00Z | Status: Active | Remaining Time: 4 days, 9 hours, 8 minutes
   - Assignment: Watch "Effectuation Stories" Video (6 min) | Due Date: 2024-01-30 | Due Time: 19:00:00Z | Status: Past due | Remaining Time: N/A
   - Assignment: Watch "Embrace the Shake" (10 min) | Due Date: 2024-02-13 | Due Time: 19:00:00Z | Status: Past due | Remaining Time: N/A
   - Assignment: Watch "Everything is a Remix 2023" (1 hr) | Due Date: 2024-02-08 | Due Time: 19:00:00Z | Status: Past due | Remaining Time: N/A
@@ -143,22 +143,22 @@ Course: 24Sp Intro to Entrepreneurship (ID: 95694)
   - Assignment: Watch "User Need Statements in Design Thinking" (3 min) | Due Date: 2024-02-15 | Due Time: 19:00:00Z | Status: Past due | Remaining Time: N/A
   - Assignment: Watch "Clickup in 2 Minutes" | Due Date: 2024-03-19 | Due Time: 18:00:00Z | Status: Past due | Remaining Time: N/A
   - Assignment: Watch "Clickup Views in 3 Minutes" | Due Date: 2024-03-19 | Due Time: 18:00:00Z | Status: Past due | Remaining Time: N/A
-  - Assignment: Watch "Steve Jobs on Go To Market Strategy" | Due Date: 2024-04-02 | Due Time: 18:00:00Z | Status: Active | Remaining Time: 9 days, 13 hours, 7 minutes
-  - Assignment: Watch "How to Pitch Your Startup" | Due Date: 2024-03-28 | Due Time: 18:00:00Z | Status: Active | Remaining Time: 4 days, 13 hours, 7 minutes
-  - Assignment: Watch "The Mystery Box" | Due Date: 2024-04-02 | Due Time: 18:00:00Z | Status: Active | Remaining Time: 9 days, 13 hours, 7 minutes
+  - Assignment: Watch "Steve Jobs on Go To Market Strategy" | Due Date: 2024-04-02 | Due Time: 18:00:00Z | Status: Active | Remaining Time: 9 days, 9 hours, 8 minutes
+  - Assignment: Watch "How to Pitch Your Startup" | Due Date: 2024-03-28 | Due Time: 18:00:00Z | Status: Active | Remaining Time: 4 days, 9 hours, 8 minutes
+  - Assignment: Watch "The Mystery Box" | Due Date: 2024-04-02 | Due Time: 18:00:00Z | Status: Active | Remaining Time: 9 days, 9 hours, 8 minutes
   - Assignment: Watch "Don't Get Stuck Worrying About Big Ideas" | Due Date: 2024-03-21 | Due Time: 18:00:00Z | Status: Past due | Remaining Time: N/A
   - Assignment: Watch Some of Timm's Best TikTok Vids | Due Date: 2024-03-21 | Due Time: 18:00:00Z | Status: Past due | Remaining Time: N/A
-  - Assignment: Watch "How to Calculate Total Addressable Market" | Due Date: 2024-04-16 | Due Time: 18:00:00Z | Status: Active | Remaining Time: 23 days, 13 hours, 7 minutes
-  - Assignment: Watch "Startup Pricing 101" | Due Date: 2024-04-16 | Due Time: 18:00:00Z | Status: Active | Remaining Time: 23 days, 13 hours, 7 minutes
-  - Assignment: Watch "What is Business Development" | Due Date: 2024-04-11 | Due Time: 18:00:00Z | Status: Active | Remaining Time: 18 days, 13 hours, 7 minutes
-  - Assignment: Watch "Financing Options for Small Businesses" | Due Date: 2024-04-18 | Due Time: 18:00:00Z | Status: Active | Remaining Time: 25 days, 13 hours, 7 minutes
+  - Assignment: Watch "How to Calculate Total Addressable Market" | Due Date: 2024-04-16 | Due Time: 18:00:00Z | Status: Active | Remaining Time: 23 days, 9 hours, 8 minutes
+  - Assignment: Watch "Startup Pricing 101" | Due Date: 2024-04-16 | Due Time: 18:00:00Z | Status: Active | Remaining Time: 23 days, 9 hours, 8 minutes
+  - Assignment: Watch "What is Business Development" | Due Date: 2024-04-11 | Due Time: 18:00:00Z | Status: Active | Remaining Time: 18 days, 9 hours, 8 minutes
+  - Assignment: Watch "Financing Options for Small Businesses" | Due Date: 2024-04-18 | Due Time: 18:00:00Z | Status: Active | Remaining Time: 25 days, 9 hours, 8 minutes
   - Assignment: Interview 3 Entrepreneurs | Due Date: 2024-02-06 | Due Time: 19:00:00Z | Status: Past due | Remaining Time: N/A
   - Assignment: Savage Beast Write-Up | Due Date: 2024-01-25 | Due Time: 19:00:00Z | Status: Past due | Remaining Time: N/A
   - Assignment: Submit a Question for Timm Chiusano | Due Date: 2024-03-21 | Due Time: 18:00:00Z | Status: Past due | Remaining Time: N/A
   - Assignment: Complete a Business Model Canvas for Kids Swag | Due Date: 2024-03-12 | Due Time: 18:00:00Z | Status: Past due | Remaining Time: N/A
   - Assignment: Write an Email to Your (Business) Hero | Due Date: 2024-02-01 | Due Time: 19:00:00Z | Status: Past due | Remaining Time: N/A
-  - Assignment: Team Project: MVP & In Class MVP Presentation | Due Date: 2024-04-04 | Due Time: 19:15:00Z | Status: Active | Remaining Time: 11 days, 14 hours, 22 minutes
-  - Assignment: Project: 5-Minute Business Pitch Presentation | Due Date: 2024-04-25 | Due Time: 18:00:00Z | Status: Active | Remaining Time: 32 days, 13 hours, 7 minutes
+  - Assignment: Team Project: MVP & In Class MVP Presentation | Due Date: 2024-04-04 | Due Time: 19:15:00Z | Status: Active | Remaining Time: 11 days, 10 hours, 23 minutes
+  - Assignment: Project: 5-Minute Business Pitch Presentation | Due Date: 2024-04-25 | Due Time: 18:00:00Z | Status: Active | Remaining Time: 32 days, 9 hours, 8 minutes
   - Assignment: Team Project: Form Final Project Teams | Due Date: 2024-02-15 | Due Time: 19:00:00Z | Status: Past due | Remaining Time: N/A
   - Assignment: In Class: Group: Value Proposition Exercise | Due Date: 2024-02-29 | Due Time: 22:00:00Z | Status: Past due | Remaining Time: N/A
   - Assignment: Group: Effectual Assessment | Due Date: 2024-02-29 | Due Time: 19:00:00Z | Status: Past due | Remaining Time: N/A
@@ -167,20 +167,20 @@ Course: 24Sp Intro to Entrepreneurship (ID: 95694)
   - Assignment: In Class: Group: Business Idea Feedback Activity | Due Date: 2024-02-22 | Due Time: 22:15:00Z | Status: Past due | Remaining Time: N/A
   - Assignment: In Class: Group: MVP Proposal | Due Date: 2024-03-21 | Due Time: 18:00:00Z | Status: Past due | Remaining Time: N/A
   - Assignment: Project: Team Brainstorm w/ Experiment Board | Due Date: 2024-02-22 | Due Time: 19:00:00Z | Status: Past due | Remaining Time: N/A
-  - Assignment: Create an Investor-Ready "Reader" Deck | Due Date: 2024-04-30 | Due Time: 18:00:00Z | Status: Active | Remaining Time: 37 days, 13 hours, 7 minutes
-  - Assignment: Group: Emotional Appeals Exercise | Due Date: 2024-04-02 | Due Time: 19:15:00Z | Status: Active | Remaining Time: 9 days, 14 hours, 22 minutes
-  - Assignment: Group: Marketing Plan | Due Date: 2024-04-09 | Due Time: 18:00:00Z | Status: Active | Remaining Time: 16 days, 13 hours, 7 minutes
-  - Assignment: In Class: Project: Budget Development | Due Date: 2024-04-10 | Due Time: 01:00:00Z | Status: Active | Remaining Time: 16 days, 20 hours, 7 minutes
+  - Assignment: Create an Investor-Ready "Reader" Deck | Due Date: 2024-04-30 | Due Time: 18:00:00Z | Status: Active | Remaining Time: 37 days, 9 hours, 8 minutes
+  - Assignment: Group: Emotional Appeals Exercise | Due Date: 2024-04-02 | Due Time: 19:15:00Z | Status: Active | Remaining Time: 9 days, 10 hours, 23 minutes
+  - Assignment: Group: Marketing Plan | Due Date: 2024-04-09 | Due Time: 18:00:00Z | Status: Active | Remaining Time: 16 days, 9 hours, 8 minutes
+  - Assignment: In Class: Project: Budget Development | Due Date: 2024-04-10 | Due Time: 01:00:00Z | Status: Active | Remaining Time: 16 days, 16 hours, 8 minutes
   - Assignment: Interview Debrief Presentation (In Class) | Due Date: 2024-02-06 | Due Time: 19:59:59Z | Status: Past due | Remaining Time: N/A
   - Assignment: Set Up a Figma Account & Join Our Team | Due Date: 2024-01-23 | Due Time: 20:15:00Z | Status: Past due | Remaining Time: N/A
   - Assignment: Review the "Everything is a Remix Activity" Page | Due Date: 2024-02-08 | Due Time: 19:00:00Z | Status: Past due | Remaining Time: N/A
-  - Assignment: Team Member Evaluation | Due Date: 2024-05-08 | Due Time: 03:59:00Z | Status: Active | Remaining Time: 44 days, 23 hours, 6 minutes
+  - Assignment: Team Member Evaluation | Due Date: 2024-05-08 | Due Time: 03:59:00Z | Status: Active | Remaining Time: 44 days, 19 hours, 7 minutes
   - Assignment: Review Challenge/RFP Boards | Due Date: No due date | Due Time: No due time | Status: No due date | Remaining Time: N/A
   - Assignment: Check out YCombinator's "Request for Startups" | Due Date: No due date | Due Time: No due time | Status: No due date | Remaining Time: N/A
-  - Assignment: Check Out dothingsthatdontscale.com | Due Date: 2024-04-11 | Due Time: 18:00:00Z | Status: Active | Remaining Time: 18 days, 13 hours, 7 minutes
+  - Assignment: Check Out dothingsthatdontscale.com | Due Date: 2024-04-11 | Due Time: 18:00:00Z | Status: Active | Remaining Time: 18 days, 9 hours, 8 minutes
   - Assignment: Prep for Rachael King Guest Session | Due Date: 2024-02-20 | Due Time: 19:00:00Z | Status: Past due | Remaining Time: N/A
   - Assignment: Peer Evaluation Grade | Due Date: No due date | Due Time: No due time | Status: No due date | Remaining Time: N/A
-  - Assignment: Final Reflection Paper | Due Date: 2024-05-08 | Due Time: 03:59:00Z | Status: Active | Remaining Time: 44 days, 23 hours, 6 minutes
+  - Assignment: Final Reflection Paper | Due Date: 2024-05-08 | Due Time: 03:59:00Z | Status: Active | Remaining Time: 44 days, 19 hours, 7 minutes
   - Assignment: In Class Participation Grade | Due Date: No due date | Due Time: No due time | Status: No due date | Remaining Time: N/A
   - Assignment: Means Inventory Exercise | Due Date: 2024-01-25 | Due Time: 20:15:00Z | Status: Past due | Remaining Time: N/A
   - Assignment: Note Taker | Due Date: No due date | Due Time: No due time | Status: No due date | Remaining Time: N/A
@@ -199,13 +199,13 @@ Course: 24Sp PHYS1425-002 Intro Physics 1 for Engineers (ID: 89710)
   - Assignment: HW05 | Due Date: 2024-02-26 | Due Time: 07:00:00Z | Status: Past due | Remaining Time: N/A
   - Assignment: HW06 | Due Date: 2024-03-11 | Due Time: 06:00:00Z | Status: Past due | Remaining Time: N/A
   - Assignment: HW07 | Due Date: 2024-03-18 | Due Time: 06:00:00Z | Status: Past due | Remaining Time: N/A
-  - Assignment: HW08 | Due Date: 2024-03-25 | Due Time: 06:00:00Z | Status: Active | Remaining Time: 1 days, 1 hours, 6 minutes
-  - Assignment: HW09 | Due Date: 2024-04-05 | Due Time: 06:00:00Z | Status: Active | Remaining Time: 12 days, 1 hours, 6 minutes
-  - Assignment: HW10 | Due Date: 2024-04-12 | Due Time: 06:00:00Z | Status: Active | Remaining Time: 19 days, 1 hours, 6 minutes
+  - Assignment: HW08 | Due Date: 2024-03-25 | Due Time: 06:00:00Z | Status: Active | Remaining Time: 0 days, 21 hours, 8 minutes
+  - Assignment: HW09 | Due Date: 2024-04-05 | Due Time: 06:00:00Z | Status: Active | Remaining Time: 11 days, 21 hours, 8 minutes
+  - Assignment: HW10 | Due Date: 2024-04-12 | Due Time: 06:00:00Z | Status: Active | Remaining Time: 18 days, 21 hours, 8 minutes
   - Assignment: HW03 | Due Date: 2024-02-07 | Due Time: 07:00:00Z | Status: Past due | Remaining Time: N/A
   - Assignment: HW04 | Due Date: 2024-02-14 | Due Time: 07:00:00Z | Status: Past due | Remaining Time: N/A
-  - Assignment: HW11 | Due Date: 2024-04-19 | Due Time: 06:00:00Z | Status: Active | Remaining Time: 26 days, 1 hours, 6 minutes
-  - Assignment: HW12 | Due Date: 2024-04-26 | Due Time: 06:00:00Z | Status: Active | Remaining Time: 33 days, 1 hours, 6 minutes
+  - Assignment: HW11 | Due Date: 2024-04-19 | Due Time: 06:00:00Z | Status: Active | Remaining Time: 25 days, 21 hours, 8 minutes
+  - Assignment: HW12 | Due Date: 2024-04-26 | Due Time: 06:00:00Z | Status: Active | Remaining Time: 32 days, 21 hours, 8 minutes
   - Assignment: Week01 Reading Quiz | Due Date: 2024-01-19 | Due Time: 07:00:00Z | Status: Past due | Remaining Time: N/A
   - Assignment: Week02 Reading Quiz | Due Date: 2024-01-26 | Due Time: 07:00:00Z | Status: Past due | Remaining Time: N/A
   - Assignment: Week04 Reading Quiz | Due Date: 2024-02-09 | Due Time: 07:00:00Z | Status: Past due | Remaining Time: N/A
@@ -231,19 +231,19 @@ Course: 24Sp PHYS1425-002 Intro Physics 1 for Engineers (ID: 89710)
   - Assignment: Week08 Reading Quiz | Due Date: 2024-03-20 | Due Time: 06:00:00Z | Status: Past due | Remaining Time: N/A
   - Assignment: HW07 | Due Date: 2024-03-18 | Due Time: 06:00:00Z | Status: Past due | Remaining Time: N/A
   - Assignment: Chapter Summary 08 | Due Date: 2024-03-22 | Due Time: 06:00:00Z | Status: Past due | Remaining Time: N/A
-  - Assignment: Week09 Reading Quiz | Due Date: 2024-04-01 | Due Time: 06:00:00Z | Status: Active | Remaining Time: 8 days, 1 hours, 6 minutes
-  - Assignment: HW08 | Due Date: 2024-03-25 | Due Time: 06:00:00Z | Status: Active | Remaining Time: 1 days, 1 hours, 6 minutes
-  - Assignment: Chapter Summary 09 | Due Date: 2024-04-03 | Due Time: 06:00:00Z | Status: Active | Remaining Time: 10 days, 1 hours, 6 minutes
-  - Assignment: Week10 Reading Quiz | Due Date: 2024-04-08 | Due Time: 06:00:00Z | Status: Active | Remaining Time: 15 days, 1 hours, 6 minutes
-  - Assignment: HW09 | Due Date: 2024-04-05 | Due Time: 06:00:00Z | Status: Active | Remaining Time: 12 days, 1 hours, 6 minutes
-  - Assignment: Chapter Summary 10 | Due Date: 2024-04-10 | Due Time: 06:00:00Z | Status: Active | Remaining Time: 17 days, 1 hours, 6 minutes
-  - Assignment: Week11 Reading Quiz | Due Date: 2024-04-15 | Due Time: 06:00:00Z | Status: Active | Remaining Time: 22 days, 1 hours, 6 minutes
-  - Assignment: HW10 | Due Date: 2024-04-12 | Due Time: 06:00:00Z | Status: Active | Remaining Time: 19 days, 1 hours, 6 minutes
-  - Assignment: Chapter Summary 11 | Due Date: 2024-04-17 | Due Time: 06:00:00Z | Status: Active | Remaining Time: 24 days, 1 hours, 6 minutes
-  - Assignment: Week12 Reading Quiz | Due Date: 2024-04-22 | Due Time: 06:00:00Z | Status: Active | Remaining Time: 29 days, 1 hours, 6 minutes
-  - Assignment: HW11 | Due Date: 2024-04-19 | Due Time: 06:00:00Z | Status: Active | Remaining Time: 26 days, 1 hours, 6 minutes
-  - Assignment: Chapter Summary 12 | Due Date: 2024-04-24 | Due Time: 06:00:00Z | Status: Active | Remaining Time: 31 days, 1 hours, 6 minutes
-  - Assignment: HW12 | Due Date: 2024-04-26 | Due Time: 06:00:00Z | Status: Active | Remaining Time: 33 days, 1 hours, 6 minutes
+  - Assignment: Week09 Reading Quiz | Due Date: 2024-04-01 | Due Time: 06:00:00Z | Status: Active | Remaining Time: 7 days, 21 hours, 8 minutes
+  - Assignment: HW08 | Due Date: 2024-03-25 | Due Time: 06:00:00Z | Status: Active | Remaining Time: 0 days, 21 hours, 8 minutes
+  - Assignment: Chapter Summary 09 | Due Date: 2024-04-03 | Due Time: 06:00:00Z | Status: Active | Remaining Time: 9 days, 21 hours, 8 minutes
+  - Assignment: Week10 Reading Quiz | Due Date: 2024-04-08 | Due Time: 06:00:00Z | Status: Active | Remaining Time: 14 days, 21 hours, 8 minutes
+  - Assignment: HW09 | Due Date: 2024-04-05 | Due Time: 06:00:00Z | Status: Active | Remaining Time: 11 days, 21 hours, 8 minutes
+  - Assignment: Chapter Summary 10 | Due Date: 2024-04-10 | Due Time: 06:00:00Z | Status: Active | Remaining Time: 16 days, 21 hours, 8 minutes
+  - Assignment: Week11 Reading Quiz | Due Date: 2024-04-15 | Due Time: 06:00:00Z | Status: Active | Remaining Time: 21 days, 21 hours, 8 minutes
+  - Assignment: HW10 | Due Date: 2024-04-12 | Due Time: 06:00:00Z | Status: Active | Remaining Time: 18 days, 21 hours, 8 minutes
+  - Assignment: Chapter Summary 11 | Due Date: 2024-04-17 | Due Time: 06:00:00Z | Status: Active | Remaining Time: 23 days, 21 hours, 8 minutes
+  - Assignment: Week12 Reading Quiz | Due Date: 2024-04-22 | Due Time: 06:00:00Z | Status: Active | Remaining Time: 28 days, 21 hours, 8 minutes
+  - Assignment: HW11 | Due Date: 2024-04-19 | Due Time: 06:00:00Z | Status: Active | Remaining Time: 25 days, 21 hours, 8 minutes
+  - Assignment: Chapter Summary 12 | Due Date: 2024-04-24 | Due Time: 06:00:00Z | Status: Active | Remaining Time: 30 days, 21 hours, 8 minutes
+  - Assignment: HW12 | Due Date: 2024-04-26 | Due Time: 06:00:00Z | Status: Active | Remaining Time: 32 days, 21 hours, 8 minutes
 Course: SURE: How to Perform Research (ID: 92492)
   - Assignment: Getting to Know You (Mandatory) | Due Date: 2024-01-23 | Due Time: 17:00:00Z | Status: Past due | Remaining Time: N/A
   - Assignment: Pre-Course Survey (Mandatory) | Due Date: 2024-01-30 | Due Time: 20:30:00Z | Status: Past due | Remaining Time: N/A
@@ -259,5 +259,5 @@ Course: SURE: How to Perform Research (ID: 92492)
   - Assignment: Journal 6 - Interview Prep  | Due Date: 2024-03-13 | Due Time: 03:59:59Z | Status: Past due | Remaining Time: N/A
   - Assignment: Mock Interview Participation | Due Date: 2024-03-13 | Due Time: 03:59:59Z | Status: Past due | Remaining Time: N/A
   - Assignment: Journal 7 - Lab Tours | Due Date: 2024-03-20 | Due Time: 03:59:59Z | Status: Past due | Remaining Time: N/A
-  - Assignment: Journal 8 - Undergraduate Research Panel | Due Date: 2024-03-26 | Due Time: 19:30:00Z | Status: Active | Remaining Time: 2 days, 14 hours, 36 minutes
+  - Assignment: Journal 8 - Undergraduate Research Panel | Due Date: 2024-03-26 | Due Time: 19:30:00Z | Status: Active | Remaining Time: 2 days, 10 hours, 38 minutes
   - Assignment: Lab Tour Participation | Due Date: 2024-03-20 | Due Time: 03:59:59Z | Status: Past due | Remaining Time: N/A
