@@ -15,11 +15,11 @@ CORS(app)
 
 @app.route('/', methods=['GET', 'POST'])
 def initial():
-    # Your Canvas instance URL
-    canvas_url = 'https://canvas.its.virginia.edu/'  # Change this to your Canvas instance URL
-    # Your Canvas API access token
-    access_token = config.CANVAS_KEY  
-    # The API endpoint for listing the current user's courses
+
+    canvas_url = 'https://canvas.its.virginia.edu/' 
+
+    access_token = config.CANVAS_API_KEY
+
     endpoint = '/api/v1/courses'
 
     params = {
@@ -135,7 +135,7 @@ def initial():
 @app.route('/prompt', methods=['GET', 'POST'])
 def prompt():
     #OpenAI API Key
-    client = OpenAI(api_key=config.API_KEY)
+    client = OpenAI(api_key=config.OPENAI_API_KEY)
 
     data = request.get_json()
     userPrompt = data['message']
