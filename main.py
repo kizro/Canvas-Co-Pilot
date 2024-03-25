@@ -215,9 +215,11 @@ def prompt():
     conn.commit()
     conn.close()
 
-    systemContent2 = systemContent2 + "Here is the user's grade data by course:" + "course_name group_name group_weight assignment_name score/grade points_possible" +formatted_results
+    systemContent2 = systemContent2 + "Here is the user's grade data by course:" + "course_name group_name group_weight assignment_name points_recieved points_possible" +formatted_results
     
-    systemContent2 = systemContent2 + '''If the user asks for assignments, you must give them assignments. If they ask for announcements, you must give them announcements. 
+    systemContent2 = systemContent2 + '''If the user asks for their score/grade, simply compute points_recieved divided bypoints_possible. Follow
+    the same answer format for similiar queries: If a user asks: "What grade did i recieve on pSet1 for FODL, you should return 80.0/80.0. 
+    If the user asks for assignments, you must give them assignments. If they ask for announcements, you must give them announcements. 
     If the user does not need information about their courses, simply answer their general questions. When a user asks for the most
     recent assignment sort by the due date. For announcements, sort by the post date and'''
 
